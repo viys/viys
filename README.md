@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+Introduce my github
+
+🧡Standard -- 标准规范文档
+
 <!--
 **viys/viys** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
