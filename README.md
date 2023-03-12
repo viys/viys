@@ -5,7 +5,10 @@
 ## Introduce my github
 
 🧡Standard -- 标准规范文档
+
 💚Configuration -- 软件配置文件
+
+💖Embedded -- 嵌入式代码
 
 💛myblog -- 博客文档备份
 
