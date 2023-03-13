@@ -4,10 +4,10 @@
 
 <a href="https://github.com/viys">
   <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&icon_color=fff&show_icons=true&hide=contribs" />
-</a>
-
-<a href="https://github.com/viys">
+</a><a href="https://github.com/viys">
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viys&theme=vue" />
+
+
 
 💙[viys.github.io](viys.github.io)viys.github.io -- 我的博客
 
