@@ -7,7 +7,6 @@
 </p>
 
 ### Hi there 👋
-嵌入式全栈学习者
 
 <a href="https://github.com/viys">
   <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&icon_color=fff&show_icons=true&hide=contribs" />
