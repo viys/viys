@@ -45,7 +45,7 @@
 
 ## Introducing my repository
 <a href="https://github.com/viys">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viys&theme=vue" />
+  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viys&theme=vue" />
 </a>
 - 💚[Configuration](https://github.com/viys/Configuration) -- 软件配置文件
 - 🤎[Drivers](https://github.com/viys/Drivers) -- 驱动文件
