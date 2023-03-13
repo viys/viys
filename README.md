@@ -18,8 +18,6 @@
 - 👯 I’m looking to make more friends
 - 💬 Ask me about QQ: 2628587386
 - ⚡ Fun fact: Learn technology
-	<img align="right" width="100" src="https://media.giphy.com/media/4TnHlUBm55QMzBLvq6/giphy.gif">
-	
 
 **Languages and Tools:** 
 
@@ -29,7 +27,7 @@
 <code><img height="20" src="https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/ORCAD.ico"></code>
 <code><img height="20" src="https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/PCB.ico"></code>
 <code><img height="20" src="https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/Multisim.ico"></code> 
-
+<img align="right" width="100" src="https://media.giphy.com/media/4TnHlUBm55QMzBLvq6/giphy.gif">
 ## Follow Me
 ![访问个人主页数量](https://komarev.com/ghpvc/?username=viys&color=green)
 [![Github](https://img.shields.io/github/followers/viys?label=Github&style=social)](https://github.com/viys)
