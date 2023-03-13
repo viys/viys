@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+嵌入式全栈学习者
+
+<a href="https://github.com/viys">
+  <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&icon_color=fff&show_icons=true&hide=contribs" />
+</a>
+
 💙[viys.github.io](viys.github.io)viys.github.io -- 我的博客
 
 ## Introduce my github
@@ -23,6 +29,10 @@
 💜[Standard](https://github.com/viys/Standard) -- 标准规范文档
 
 🤎
+
+## Follow Me
+![访问个人主页数量](https://komarev.com/ghpvc/?username=viys&color=green)
+[![Github](https://img.shields.io/github/followers/viys?label=Github&style=social)](https://github.com/viys)
 
 <!--
 **viys/viys** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
