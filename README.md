@@ -30,7 +30,7 @@
 ## Introducing my repository
 <a href="https://github.com/viys">
 
-  <img align="right" width="500" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viys&layout=compact" />
+  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viys&layout=compact" />
 </a>
 
 ### 资料管理
