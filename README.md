@@ -41,9 +41,7 @@
 - 💚[Protocol](https://github.com/viys/Protocol) -- 协议文档
 - 💜[Standard](https://github.com/viys/Standard) -- 标准规范文档
 
-<a align="right">
 ![访问个人主页数量](https://komarev.com/ghpvc/?username=viys&color=green)[![Github](https://img.shields.io/github/followers/viys?label=Github&style=social)](https://github.com/viys)
-</a>
 
 <!--
 **viys/viys** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
