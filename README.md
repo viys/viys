@@ -15,6 +15,7 @@
 - 👯 I’m looking to make more friends
 - 💬 Ask me about QQ: 2628587386
 - ⚡ Fun fact: Learn technology
+
 **Languages and Tools:** 
 <code><img height="20" src="https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/keil.ico"></code>
 <code><img height="20" src="https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/vscode.ico"></code>
@@ -23,6 +24,7 @@
 <code><img height="20" src="https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/PCB.ico"></code>
 <code><img height="20" src="https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/Multisim.ico"></code> 
 <img align="right" width="100" src="https://media.giphy.com/media/4TnHlUBm55QMzBLvq6/giphy.gif">
+
 ## Introducing my repository
 <a href="https://github.com/viys">
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viys&layout=compact" />
