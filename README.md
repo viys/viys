@@ -1,5 +1,5 @@
 <p align="center">
- 	<a href="http://viys.github.io/" target="_blank">
+ 	<a href="https://viys.github.io/" >
      <img width="100px" src="https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/202303131049825.png" align="center" alt="GitHub Readme Stats" />
     </a>
  <h2 align="center">Welcome to my blog ↖</h2>
@@ -34,9 +34,6 @@
 
 ## Languages
 <a href="https://github.com/viys">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viys&theme=vue" />
-</a>
-<a href="https://github.com/viys">
   <img align="rigth" width="355" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viys&bg_color=30,904e95,e96443&title_color=fff&text_color=fff&layout=compact&theme=tokyonight&show_icons=true&hide_title=true" />
 </a>
 
@@ -47,6 +44,9 @@
 ![](https://activity-graph.herokuapp.com/graph?username=viys&theme=github)
 
 ## Introducing my repository
+<a href="https://github.com/viys">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viys&theme=vue" />
+</a>
 - 💚[Configuration](https://github.com/viys/Configuration) -- 软件配置文件
 - 🤎[Drivers](https://github.com/viys/Drivers) -- 驱动文件
 - 🧡[Multisim](https://github.com/viys/Multisim) -- 仿真电路
