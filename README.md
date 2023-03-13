@@ -13,7 +13,6 @@
 <a>
 <img align="right" width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viys&theme=vue" />
 </a>
-<img align="right" src="https://count.getloli.com/get/@:xs-web-lhdd?theme=rule34">
 
 
 
