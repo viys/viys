@@ -5,7 +5,9 @@
  <h2 align="center">Welcome to my blog ↖</h2>
  <p align="center">Here's an introduction to my github repository ⬇</p>
 </p>
+
 ### Hi there 👋
+
 <a href="https://github.com/viys">
   <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,ccccd6,fff&title_color=5e616d&text_color=5e616d&icon_color=5e616d&show_icons=true&hide=contribs" />
 </a>
@@ -13,7 +15,7 @@
 - 🔭 I’m currently working on HPU
 - 🌱 I’m currently learning Embedded
 - 👯 I’m looking to make more friends
-- [💬](tencent://message/?Menu=yes&uin=2628587386&Service=300&sigT=45a1e5847943b64c6ff3990f8a9e644d2b31356cb0b4ac6b24663a3c8dd0f8aa12a595b1714f9d45) Ask me about QQ: 2628587386
+- 💬 Ask me about QQ: 2628587386
 - ⚡ Fun fact: Learn technology
 
 **Languages and Tools:** 
