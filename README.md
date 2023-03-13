@@ -33,24 +33,6 @@
 ![访问个人主页数量](https://komarev.com/ghpvc/?username=viys&color=green)
 [![Github](https://img.shields.io/github/followers/viys?label=Github&style=social)](https://github.com/viys)
 
-## Introducing my repository
-	💚[Configuration](https://github.com/viys/Configuration) -- 软件配置文件
-	
-	🤎[Drivers](https://github.com/viys/Drivers) -- 驱动文件
-	
-	🧡[Multisim](https://github.com/viys/Multisim) -- 仿真电路
-	
-	💙[IC](https://github.com/viys/IC) -- 器件手册
-	
-	💖[Embedded](https://github.com/viys/Embedded) -- 嵌入式代码
-	
-	💛[myblog](https://github.com/viys/myblog) -- 博客文档备份
-	
-	💗[Peripheral](https://github.com/viys/Peripheral) -- 外设资料和官方源码
-	
-	💚[Protocol](https://github.com/viys/Protocol) -- 协议文档
-	
-	💜[Standard](https://github.com/viys/Standard) -- 标准规范文档
 
 ## Languages
 <a href="https://github.com/viys">
@@ -65,6 +47,18 @@
 
 
 ![](https://activity-graph.herokuapp.com/graph?username=viys&theme=github)
+
+## Introducing my repository
+- 💚[Configuration](https://github.com/viys/Configuration) -- 软件配置文件
+- 🤎[Drivers](https://github.com/viys/Drivers) -- 驱动文件
+- 🧡[Multisim](https://github.com/viys/Multisim) -- 仿真电路
+- 💙[IC](https://github.com/viys/IC) -- 器件手册
+- 💖[Embedded](https://github.com/viys/Embedded) -- 嵌入式代码
+- 💛[myblog](https://github.com/viys/myblog) -- 博客文档备份
+- 💗[Peripheral](https://github.com/viys/Peripheral) -- 外设资料和官方源码
+- 💚[Protocol](https://github.com/viys/Protocol) -- 协议文档
+- 💜[Standard](https://github.com/viys/Standard) -- 标准规范文档
+
 
 <!--
 **viys/viys** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
