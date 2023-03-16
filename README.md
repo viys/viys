@@ -18,12 +18,12 @@
 - ⚡ Fun fact: Learn technology
 
 **Languages and Tools:** 
-
+![]()
 <code><img height="20" src="https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/keil.ico"></code>
 <code><img height="20" src="https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/vscode.ico"></code>
 <code><img height="20" src="https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/lceda.ico"></code>
-<code><img height="20" src="https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/ORCAD.ico"></code>
-<code><img height="20" src="https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/PCB.png"></code>
+<code><img height="20" src="https://cdn.jsdelivr.net/gh/viys/picture-bed/img/ORCAD.ico"></code>
+<code><img height="20" src="https://cdn.jsdelivr.net/gh/viys/picture-bed/img/PCB.png"></code>
 <code><img height="20" src="https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/Multisim.ico"></code> 
 <img align="right" width="100" src="https://media.giphy.com/media/4TnHlUBm55QMzBLvq6/giphy.gif">
 
