@@ -1,6 +1,6 @@
 <p align="center">
  	<a href="https://viys.github.io/" >
-     <img width="100px" src="https://cdn.jsdelivr.net/gh/viys/picture-bed/img/mylogo_r.png" align="center" alt="GitHub Readme Stats" />
+     <img width="100px" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/mylogo_r.png" align="center" alt="GitHub Readme Stats" />
     </a>
  <h2 align="center">Welcome to my blog ↖</h2>
  <p align="center">Here's an introduction to my github repository ⬇</p>
@@ -18,13 +18,13 @@
 - ⚡ Fun fact: Learn technology
 
 **Languages and Tools:** 
-
-<code><img height="20" src="https://cdn.jsdelivr.net/gh/viys/picture-bed/img/keil.png"></code>
-<code><img height="20" src="https://cdn.jsdelivr.net/gh/viys/picture-bed/img/vscode.ico"></code>
-<code><img height="20" src="https://cdn.jsdelivr.net/gh/viys/picture-bed/img/lceda.ico"></code>
-<code><img height="20" src="https://cdn.jsdelivr.net/gh/viys/picture-bed/img/ORCAD.ico"></code>
-<code><img height="20" src="https://cdn.jsdelivr.net/gh/viys/picture-bed/img/PCB.png"></code>
-<code><img height="20" src="https://cdn.jsdelivr.net/gh/viys/picture-bed/img/Multisim.png"></code> 
+<img src=""/>
+<code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/keil.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/vscode.ico"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/lceda.ico"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/ORCAD.ico"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/PCB.png"></code>
+<code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/Multisim.png"></code> 
 <img align="right" width="100" src="https://media.giphy.com/media/4TnHlUBm55QMzBLvq6/giphy.gif">
 
 ## Introducing my repository
