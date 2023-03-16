@@ -18,7 +18,7 @@
 - ⚡ Fun fact: Learn technology
 
 **Languages and Tools:** 
-<img src=""/>
+
 <code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/keil.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/vscode.ico"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/lceda.ico"></code>
