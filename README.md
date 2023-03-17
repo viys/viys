@@ -7,12 +7,16 @@
 </div>
 
 <div align="center">
+ 
 ## About Me
+
 </div>
+
 ### Hi there 👋
+
 <div align="right">
   <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,ccccd6,fff&title_color=5e616d&text_color=5e616d&icon_color=5e616d&show_icons=true&hide=contribs" />
- </div>
+</div>
 
 - 🔭 I’m currently working on HPU
 - 🌱 I’m currently learning Embedded
