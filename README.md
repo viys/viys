@@ -9,7 +9,6 @@
 <!--   my-ticker -->    
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=black&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+viys;+Welcome+to+My+Profile!;Embedded+development+enthusiast+;Over+1+years+of+embedded+development+experience)](https://git.io/typing-svg)
 
-## About me
 <a href="https://github.com/viys">
   <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,ccccd6,fff&title_color=5e616d&text_color=5e616d&icon_color=5e616d&show_icons=true&hide=contribs" />
 </a>
