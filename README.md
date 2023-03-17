@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
- <a href="https://github.com/viys?tab=following"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a>
- <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
+ <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a>
+ <a href="https://github.com/viys?tab=following"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
 </p>
 
 ### Hi there 👋
