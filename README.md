@@ -5,10 +5,12 @@
  <h2 align="center">Welcome to my blog ↖</h2>
  <p align="center">Here's an introduction to my github repository ⬇</p>
 </p>
+
 <p align="center">
- <a href="https://github.com/viys/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a>
-![访问个人主页数量]() [![Github](https://img.shields.io/github/followers/viys?label=Github&style=social)](https://github.com/viys)
+ <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a>
+ <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
 </p>
+
 ### Hi there 👋
 <a href="https://github.com/viys">
   <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,ccccd6,fff&title_color=5e616d&text_color=5e616d&icon_color=5e616d&show_icons=true&hide=contribs" />
