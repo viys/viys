@@ -2,8 +2,8 @@
  	<a href="https://viys.github.io/" >
      <img width="100px" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/mylogo_r.png" align="center" alt="GitHub Readme Stats" />
     </a>
- <h2 align="center">Welcome to my blog ↖</h2>
- <p align="center">## 👤 About Me</p>
+ Welcome to my blog ↖
+ ## 👤 About Me
 </p>
 
 <p align="center">
