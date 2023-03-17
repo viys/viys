@@ -50,5 +50,5 @@
  <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a> <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
 </div>
 
-
+<!--   my-ticker -->    
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+778B;+Welcome+to+My+Profile!;Over+1+years+of+embedded+development+experience;Embedded+software+and hardware+development+enthusiasts+;)](https://git.io/typing-svg)
