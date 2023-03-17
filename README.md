@@ -46,7 +46,6 @@
 - 💚[Protocol](https://github.com/viys/Protocol) -- 协议文档
 - 💜[Standard](https://github.com/viys/Standard) -- 标准规范文档
 
-<p align="center">
- <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a>
- <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
-</p>
+<div align="right">
+ <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a> <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
+</div>
