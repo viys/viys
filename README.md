@@ -6,7 +6,7 @@
  <h2 align="center">Welcome to my blog ↖</h2>
  <h3 align="center">Here's an introduction to my profile ⬇ </h3> 
 </p>
-<a align="right" href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a> <a align="right" href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
+
 ### Hi there 👋
 <a href="https://github.com/viys">
   <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,ccccd6,fff&title_color=5e616d&text_color=5e616d&icon_color=5e616d&show_icons=true&hide=contribs" />
@@ -46,6 +46,6 @@
 - 💚[Protocol](https://github.com/viys/Protocol) -- 协议文档
 - 💜[Standard](https://github.com/viys/Standard) -- 标准规范文档
 
-<div align="right">
+<div align="left">
  <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a> <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
 </div>
