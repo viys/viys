@@ -6,11 +6,13 @@
  <p align="center">Here's an introduction to my github repository ⬇</p>
 </p>
 
+![访问个人主页数量](https://komarev.com/ghpvc/?username=viys&color=green) [![Github](https://img.shields.io/github/followers/viys?label=Github&style=social)](https://github.com/viys)
+
 ### Hi there 👋
 <a href="https://github.com/viys">
   <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,ccccd6,fff&title_color=5e616d&text_color=5e616d&icon_color=5e616d&show_icons=true&hide=contribs" />
 </a>
-![访问个人主页数量](https://komarev.com/ghpvc/?username=viys&color=green) [![Github](https://img.shields.io/github/followers/viys?label=Github&style=social)](https://github.com/viys)
+
 - 🔭 I’m currently working on HPU
 - 🌱 I’m currently learning Embedded
 - 👯 I’m looking to make more friends
