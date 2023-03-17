@@ -4,7 +4,7 @@
      <img width="100px" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/mylogo_r.png" align="center" alt="GitHub Readme Stats" />
     </a>
  <h2 align="center">Welcome to my blog ↖</h2>
- <h3 align="center">Here's an introduction to my profile ⬇> <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a> <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
+ <h3 align="center">Here's an introduction to my profile ⬇ <a align="right" href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a> <a align="right" href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
 </p>
 
 ### Hi there 👋
