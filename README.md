@@ -3,7 +3,7 @@
      <img width="100px" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/mylogo_r.png" align="center" alt="GitHub Readme Stats" />
     </a>
  <h2 align="center">Welcome to my blog ↖</h2>
- <p align="center">Here's an introduction to my github repository ⬇</p>
+ <p align="center">## 👤 About Me</p>
 </p>
 
 <p align="center">
