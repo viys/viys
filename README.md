@@ -1,17 +1,16 @@
-<div align="center">
+
+<p align="center">
  	<a href="https://viys.github.io/" >
      <img width="100px" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/mylogo_r.png" align="center" alt="GitHub Readme Stats" />
-  </a>
- 
- Welcome to my blog ↖
-</div>
-
+    </a>
+ <h2 align="center">Welcome to my blog ↖</h2>
+ <p align="center">Here's an introduction to my profile ⬇</p>
+</p>
 
 ### Hi there 👋
-
-<div align="right">
+<a href="https://github.com/viys">
   <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,ccccd6,fff&title_color=5e616d&text_color=5e616d&icon_color=5e616d&show_icons=true&hide=contribs" />
-</div>
+</a>
 
 - 🔭 I’m currently working on HPU
 - 🌱 I’m currently learning Embedded
@@ -30,7 +29,6 @@
 <img align="right" width="100" src="https://media.giphy.com/media/4TnHlUBm55QMzBLvq6/giphy.gif">
 
 ## Introducing my repository
-  
 <a href="https://github.com/viys">
 
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viys&layout=compact" />
@@ -48,7 +46,7 @@
 - 💚[Protocol](https://github.com/viys/Protocol) -- 协议文档
 - 💜[Standard](https://github.com/viys/Standard) -- 标准规范文档
 
-<div align="right">
+<p align="center">
  <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a>
- <a href="https://github.com/viys?tab=following"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
-</div>
+ <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
+</p>
