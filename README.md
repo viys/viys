@@ -8,14 +8,15 @@
  ## 👤 About Me
 </div>
 
-<p align="center">
- <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a>
- <a href="https://github.com/viys?tab=following"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
-</p>
+
 
 ### Hi there 👋
 <a href="https://github.com/viys">
   <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,ccccd6,fff&title_color=5e616d&text_color=5e616d&icon_color=5e616d&show_icons=true&hide=contribs" />
+ <p align="left">
+ <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a>
+ <a href="https://github.com/viys?tab=following"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
+</p>
 </a>
 
 - 🔭 I’m currently working on HPU
