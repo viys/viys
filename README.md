@@ -6,11 +6,6 @@
  Welcome to my blog ↖
 </div>
 
-<div align="center">
- 
-## About Me
-
-</div>
 
 ### Hi there 👋
 
@@ -34,12 +29,8 @@
 <code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/Multisim.png"></code> 
 <img align="right" width="100" src="https://media.giphy.com/media/4TnHlUBm55QMzBLvq6/giphy.gif">
 
-<div align="center">
- 
 ## Introducing my repository
- 
-</div>
- 
+  
 <a href="https://github.com/viys">
 
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viys&layout=compact" />
