@@ -7,7 +7,7 @@
 </p>
 
 <!--   my-ticker -->    
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+viys;+Welcome+to+My+Profile!;Embedded+development+enthusiast+;Over+1+years+of+embedded+development+experience)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=black&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+viys;+Welcome+to+My+Profile!;Embedded+development+enthusiast+;Over+1+years+of+embedded+development+experience)](https://git.io/typing-svg)
 
 ## About me
 <a href="https://github.com/viys">
