@@ -4,12 +4,13 @@
      <img width="100px" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/mylogo_r.png" align="center" alt="GitHub Readme Stats" />
     </a>
  <h2 align="center">Welcome to my blog ↖</h2>
- <h3 align="center">Welcome to my profile ⬇ </h3> 
 </p>
 
 
 <!--   my-ticker -->    
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+viys;+Welcome+to+My+Profile!;Embedded+development+enthusiast+;Over+1+years+of+embedded+development+experience)](https://git.io/typing-svg)
+
+### About me
 
 <a href="https://github.com/viys">
   <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,ccccd6,fff&title_color=5e616d&text_color=5e616d&icon_color=5e616d&show_icons=true&hide=contribs" />
