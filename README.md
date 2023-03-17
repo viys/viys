@@ -4,7 +4,7 @@
      <img width="100px" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/mylogo_r.png" align="center" alt="GitHub Readme Stats" />
     </a>
  <h2 align="center">Welcome to my blog ↖</h2>
- <h2 align="center">Welcome to my profile ⬇ </h2> 
+ <h3 align="center">Welcome to my profile ⬇ </h3> 
 </p>
 
 ### Hi there 👋
