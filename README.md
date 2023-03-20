@@ -21,12 +21,12 @@
 
 **Languages and Tools:** 
 
-<code><img title="keil" height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/keil.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/vscode.ico"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/lceda.ico"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/ORCAD.ico"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/PCB.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/Multisim.png"></code> 
+<code><img title="Keil" height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/keil.png"></code>
+<code><img title="VScode" height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/vscode.ico"></code>
+<code><img title="LCEDA" height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/lceda.ico"></code>
+<code><img title="ORCAD" height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/ORCAD.ico"></code>
+<code><img title="PCB" height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/PCB.png"></code>
+<code><img title="Multisim" height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/Multisim.png"></code> 
 <img align="right" width="100" src="https://media.giphy.com/media/4TnHlUBm55QMzBLvq6/giphy.gif">
 
 ## Introducing my repository
