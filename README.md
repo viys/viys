@@ -48,6 +48,6 @@
 - 💜[Standard](https://github.com/viys/Standard) -- 标准规范文档
 
 <div align="left">
- <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=green"></a> <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
+ <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=ccccd6"></a> <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
 </div>
 
