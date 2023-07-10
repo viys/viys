@@ -48,6 +48,7 @@
 - 💗[Peripheral](https://github.com/viys/Peripheral) -- 外设资料和官方源码
 - 💚[Protocol](https://github.com/viys/Protocol) -- 协议文档
 - 💜[Standard](https://github.com/viys/Standard) -- 标准规范文档
+- 🤍[WCH Code](https://github.com/viys/WCH-Code) -- 沁恒代码
 
 <div align="left">
  <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=ccccd6"></a> <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
