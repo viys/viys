@@ -28,6 +28,7 @@
 <code><img title="LCEDA" height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/lceda.ico"></code>
 <code><img title="ORCAD" height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/ORCAD.ico"></code>
 <code><img title="PCBedit" height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/PCB.png"></code>
+<code><img title="Altium Designer" height="20" src="https://cdn-static.altium.com.cn//themes/custom/altium_designer/html/dist/images/logo-ad-black.svg"></code>
 <code><img title="Multisim" height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/Multisim.png"></code> 
 <img align="right" width="100" src="https://media.giphy.com/media/4TnHlUBm55QMzBLvq6/giphy.gif">
 
