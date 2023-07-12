@@ -52,6 +52,6 @@
 - 🤍[WCH Code](https://github.com/viys/WCH-Code) -- 沁恒代码
 
 <div align="left">
- <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&color=ccccd6"></a> <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>  <img src="https://komarev.com/ghpvc/?username=viys&label=Views&color=0e75b6&style=flat" alt="访问量统计" /> 
+ <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&label=Views&color=ccccd6&style=flat alt="访问量统计""></a> <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>  
 </div>
 
