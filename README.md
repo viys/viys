@@ -13,10 +13,10 @@
   <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,ccccd6,fff&title_color=5e616d&text_color=5e616d&icon_color=5e616d&show_icons=true&hide=contribs" />
 </a>
 
-- 🔭 I’m currently working on HPU
+- 🔭 I’m an embedded practitioner
 - 🌱 I’m currently learning Embedded
 - 👯 I’m looking to make more friends
-- 💬 Ask me about QQ: 2628587386
+- 💬 Ask me about Email: viysyu@gmail.com
 - ⚡ Fun fact: Learn technology
 
 **Languages and Tools:** 
@@ -37,19 +37,6 @@
 
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viys&layout=compact" />
 </a>
-
-### 资料管理
-
-- 💚
-- 🤎
-- 🧡
-- 💙
-- 💖
-- 💛
-- 💗
-- 💚
-- 💜
-- 🤍
 
 <div align="left">
  <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&label=Visitor&color=ccccd6"></a> <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
