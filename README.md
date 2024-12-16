@@ -30,9 +30,9 @@
 <code><img title="PCBedit" height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/PCB.png"></code>
 <code><img title="Altium Designer" height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/Altium Designer.png"></code>
 <code><img title="Multisim" height="20" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/Multisim.png"></code> 
+## 
 <img align="right" width="100" src="https://media.giphy.com/media/4TnHlUBm55QMzBLvq6/giphy.gif">
 
-## 
 
 <div align="left">
  <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&label=Visitor&color=ccccd6"></a> <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
