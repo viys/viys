@@ -14,8 +14,8 @@
 </a>
 
 - 🔭 I’m an embedded practitioner
-- 🌱 I’m currently learning Embedded
 - 👯 I’m looking to make more friends
+- 🌱 Refusing to live life at a 45-degree angle
 - 💬 Ask me about Email: viysyu@gmail.com
 - ⚡ Fun fact: Learn technology
 
