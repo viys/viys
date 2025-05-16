@@ -1,7 +1,7 @@
 
 <p align="center">
  	<a href="https://viys.github.io/" >
-     <img width="100px" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/mylogo_r.png" align="center" alt="GitHub Readme Stats" />
+     <img width="100px" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/Profile.png" align="center" alt="GitHub Readme Stats" />
     </a>
  <h2 align="center">Welcome to my Profile</h2>
 </p>
