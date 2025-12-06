@@ -10,43 +10,14 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%11111111&left=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Jiyon_Yu;+Welcome+to+My+Profile!;Embedded+development+enthusiast+;Over+2+years+of+embedded+development+experience;Welcome+to+click+on+the+avatar+to+enter+my+blog)](https://git.io/typing-svg)
 
 <a href="https://github.com/viys">
-  <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,ccccd6,fff&title_color=5e616d&text_color=5e616d&icon_color=5e616d&show_icons=true&hide=contribs" />
+  <img align="right" width="400" src="" />
 </a>
-
 
 - 🔭 I’m an embedded practitioner
 - 👯 I’m looking to make more friends
 - 🌱 Refusing to live life at a 45-degree angle
 - 💬 Ask me about Email: viysyu@gmail.com
 - ⚡ Fun fact: Learn technology
-
-
-<!-- Belarus - My Home-->
-
- ```geojson
-{
- "type": "FeatureCollection",
- "features": [
-   {
-     "type": "Feature",
-     "id": 1,
-     "properties": {
-       "ID": 0
-     },
-     "geometry": {
-       "type": "Polygon",
-       "coordinates": [
-         [
-             [23.5,53.9],
-             [32.6,52.6]
-         ]
-       ]
-     }
-   }
- ]
-}
-
- ```
 
 **Languages and Tools:**
 
