@@ -1,13 +1,13 @@
 
 <p align="center">
- 	<a href="https://viys.github.io/" >
+ 	<a href="https://viys.github.io/viys" >
      <img width="120px" src="https://raw.githubusercontent.com/viys/picture-bed/master/img/Profile_r.png" align="center" alt="GitHub Readme Stats" />
     </a>
  <h2 align="center">Welcome to my Profile</h2>
 </p>
 
 <!--   my-ticker -->    
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%11111111&left=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Jiyon_Yu;+Welcome+to+My+Profile!;Embedded+development+enthusiast+;Over+1+years+of+embedded+development+experience;Welcome+to+click+on+the+avatar+to+enter+my+blog)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%11111111&left=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Jiyon_Yu;+Welcome+to+My+Profile!;Embedded+development+enthusiast+;Over+2+years+of+embedded+development+experience;Welcome+to+click+on+the+avatar+to+enter+my+blog)](https://git.io/typing-svg)
 
 <a href="https://github.com/viys">
   <img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=viys&include_all_commits=true&bg_color=30,ccccd6,fff&title_color=5e616d&text_color=5e616d&icon_color=5e616d&show_icons=true&hide=contribs" />
