@@ -15,7 +15,7 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', autogenerate: { directory: "guides/example" } },
+						{ label: 'Example Guide', autogenerate: { directory: 'guides/example' } },
 					],
 				},
 				{
