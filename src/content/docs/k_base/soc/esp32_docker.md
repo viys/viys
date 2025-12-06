@@ -1,5 +1,5 @@
 ---
-title: "ESP32 Docker 开发环境"
+title: ESP32 Docker 开发环境
 ---
 
 # 使用 Docker 设置 ESP32 开发环境

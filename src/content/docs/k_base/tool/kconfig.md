@@ -1,5 +1,5 @@
 ---
-title: KConfig
+title: KConfig 使用文档
 ---
 
 # 资料

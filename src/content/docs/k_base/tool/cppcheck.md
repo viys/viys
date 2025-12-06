@@ -1,5 +1,5 @@
 ---
-title: Cppcheck
+title: Cppcheck 的使用
 ---
 
 >  Cppcheck 工具主要用于静态代码分析，帮助开发者在不运行代码的情况下发现潜在的错误、代码质量问题或性能隐患。

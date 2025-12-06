@@ -1,5 +1,5 @@
 ---
-title: QRCode
+title: QRCode 串口二维码
 ---
 
 # 项目地址

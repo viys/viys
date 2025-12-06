@@ -1,5 +1,5 @@
 ---
-title: "CuTest 单元测试框架"
+title: CuTest 单元测试框架
 ---
 
 # CuTest 简介

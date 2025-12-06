@@ -1,5 +1,5 @@
 ---
-title: "posh-git-viys"
+title: posh-git-viys
 ---
 
 # 🧩posh-git-viys

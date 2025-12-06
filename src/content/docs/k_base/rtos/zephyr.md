@@ -1,14 +1,11 @@
 ---
-title: Zephyr
+title: Zephyr 学习笔记
 ---
 
-# Zephyr 资料
-
-https://docs.zephyrproject.org/latest/
-
 # 环境配置
+>https://docs.zephyrproject.org/latest/
 
-https://docs.zephyrproject.org/latest/develop/getting_started/index.html
+> https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 # 工程构建
 

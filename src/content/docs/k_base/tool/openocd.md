@@ -1,5 +1,5 @@
 ---
-title: OpenOCD
+title: OpenOCD 使用方法
 ---
 
 在 Ubuntu 上使用 **PWLink2**（PWLINK2，一种类似 ST-Link 的调试器）连接 STM32 进行烧录和调试，可以按照以下步骤操作：
