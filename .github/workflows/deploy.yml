@@ -70,4 +70,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        # ⚠️ 不要使用 publish_dir 参数
+        # with:
+          # ⚠️ 用户主页不要设置 publish_dir 的子目录
+        #   publish_dir: ./dist
