@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://viys.github.io',
+  	base: 'visy',
 	integrations: [
 		starlight({
 			title: 'My Docs',
