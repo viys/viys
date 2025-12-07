@@ -9,9 +9,9 @@
 <!--   my-ticker -->
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%11111111&left=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+Jiyon_Yu;+Welcome+to+My+Profile!;Embedded+development+enthusiast+;Over+2+years+of+embedded+development+experience;Welcome+to+click+on+the+avatar+to+enter+my+blog)](https://git.io/typing-svg)
 
-<a href="https://github.com/viys">
+<!-- <a href="https://github.com/viys">
   <img align="right" width="300" src="https://github-readme-streak-stats.herokuapp.com?user=viys&hide_border=&short_numbers=&card_width=300&hide_longest_streak=true" />
-</a>
+</a> -->
 
 - 🔭 I’m an embedded practitioner
 - 👯 I’m looking to make more friends
