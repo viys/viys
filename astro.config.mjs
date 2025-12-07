@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightThemeObsidian from 'starlight-theme-obsidian'
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,6 +9,10 @@ export default defineConfig({
   	base: '/viys',
 	integrations: [
 		starlight({
+			plugins: [starlightThemeObsidian({
+				backlinks: false,
+				graph: false
+			})],
 			title: 'My Blog',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/viys' }],
 			sidebar: [
