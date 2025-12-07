@@ -573,11 +573,11 @@ CMD ["make", "all"]
 
 ### 在 VSCode 中安装 Docker 插件
 
-![img](https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=YzY0Yzk0ZThkMzQ2NTEzY2E2MWRmMjhhMWVhOGRlNjBfNmhiM3lLM0QzN1l2Wm9QS09zaXlGZEVuTTBoRzl2MWVfVG9rZW46RzVTVWJwQXRRb0hvamh4eFAyeGNUdjBJbkVoXzE3NjUwMjcxNzg6MTc2NTAzMDc3OF9WNA)
+![img](assets/vscode_docker_1.png)
 
 ### 使用 VSCode 打开容器
 
-![img](https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=YTAyNjE5YzAwZjk1ZGZjYWM0YTA4NjVkYjVlZWE2NzNfOU5DMUYzNjBFVHNkVEtvNDZ6dnVORFJmWWxTaU5nU1lfVG9rZW46RlNiT2Jkdk5lb3VCVFV4aFplVmNlbVNLbmRjXzE3NjUwMjcxNzg6MTc2NTAzMDc3OF9WNA)
+![img](assets/vscode_docker_2.png)
 
 > 附加 Visual Studio Code 后会自动打开一个在该容器中的窗口。
 

@@ -85,7 +85,7 @@ minicom -D /dev/ttyUSB0 -b 11520
 
 ### USBIP Connect 插件
 
-![img](https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=MTQ2NmM5MjdjNmY3YTgxYzU2OGNjNTk4YWUyMWFiNDJfWURXTldHOGFNMkVTMFprUWs5cnlhMzlBS3FVdWhCYkZfVG9rZW46TTFPZWJFbFVJb2IyUEh4TkJ2dWMwRDNzbkpjXzE3NjUwMjczMDk6MTc2NTAzMDkwOV9WNA)
+![USBIP_Connect](assets/USBIP_Connect.png)
 
 # 高级文件管理
 

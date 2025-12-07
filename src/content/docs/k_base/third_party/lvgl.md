@@ -28,4 +28,4 @@ make -j
 ../bin/main
 ```
 
-![img](https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=NDMzMjQwOGMyZDk1YzQ5YjY1YjQzMGQ4ZWUwMzdiNDZfRTdJdDhManNTMXBzNjBLcmxORkpBaFZveWUzS3EzWGhfVG9rZW46TVVRcGJ1ZGpWb3B0ajZ4TFdlTGMwbVExblJkXzE3NjUwMjc3MjE6MTc2NTAzMTMyMV9WNA)
+![img](assets/lvgl_1.png)

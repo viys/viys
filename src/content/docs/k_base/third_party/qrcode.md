@@ -12,7 +12,7 @@ https://github.com/viys/qrcode.git
 
 ## Windows
 
-![img](https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=MWVmYjU0Yzg4NTY4M2M1MTY4ZjgwOTAzZjEwMWUwNzZfQzRpN2ZTbWUxeFZlQ2NSYnpqZW1iRDJ4NmNqVVg3bkNfVG9rZW46S3l5cGJyS0tqb3VjZTB4a1VOU2NqUk1ubjZjXzE3NjUwMjc3MDE6MTc2NTAzMTMwMV9WNA)
+![qrcode_windows](assets/qrcode_windows.png)
 
 ```powershell
 # 代码验证
@@ -26,7 +26,7 @@ make
 
 ## Linux
 
-![img](https://ai.feishu.cn/space/api/box/stream/download/asynccode/?code=NjIxMzk3ZWJmNzAwYmRjMTU4YjQwM2JiYWJkMzhlYmNfQkIzSEUzM0ZTR1c3UGlNU041Q2VjQkh0NXc2dm9Zb2lfVG9rZW46TGFiTWJLYm5Bb0RXZjN4bG5KQWNZcTlIbmVmXzE3NjUwMjc3MDE6MTc2NTAzMTMwMV9WNA)
+![qrcode_linux](assets/qrcode_linux.png)
 
 ```bash
 # 代码验证
