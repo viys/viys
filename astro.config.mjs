@@ -8,7 +8,7 @@ export default defineConfig({
   	base: '/viys',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'My Blog',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/viys' }],
 			sidebar: [
 				{
@@ -23,8 +23,8 @@ export default defineConfig({
 					autogenerate: { directory: 'k_base' },
 				},
 				{
-					label: 'Old',
-					autogenerate: { directory: 'old' },
+					label: 'Projectd',
+					autogenerate: { directory: 'project' },
 				},
 			],
 		}),
