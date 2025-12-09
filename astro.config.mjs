@@ -20,7 +20,7 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: '知识空间简介', slug: 'guides/introduction' },
+						{ label: '知识空间简介', slug: 'readme' },
 					],
 				},
 				{
