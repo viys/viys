@@ -11,7 +11,6 @@ Zigbee 在 2.4G 频段下最大传输速率为 250kbps。
 
 ![7da5ad03ea1bdca78a5d779229391b93](assets/7da5ad03ea1bdca78a5d779229391b93.png)
 
-
 ## **Zigbee 协议栈的分层架构图**
 
 ![image-20251209215018158](assets/image-20251209215018158.png)
