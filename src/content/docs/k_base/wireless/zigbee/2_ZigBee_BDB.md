@@ -104,7 +104,7 @@ Node 是整台设备，Device 是功能集，Endpoint 是功能入口
 
 规定了所有实现基础设备行为规范的节点的一般要求。
 
-详见 DBD 文档第六章 General requirements。
+详见 BDB 文档第六章 General requirements。
 
 - ZigBee logical device types    ZigBee 逻辑设备
 - Network securitymodels    网络安全模型
@@ -118,20 +118,21 @@ Node 是整台设备，Device 是功能集，Endpoint 是功能入口
 
 ## Initialization 初始化
 
-详见 DBD 文档第七章 Initialization。
+详见 BDB 文档第七章 Initialization。
 
 ## Commissioning 调试配置
 
-详见 DBD 文档第八章 Commissioning。
+详见 BDB 文档第八章 Commissioning。
 
 ## **Reset 重启**
 
-详见 DBD 文档第九章 Reset。
+详见 BDB 文档第九章 Reset。
 
 ## **Security 安全**
 
-详见 DBD 文档第十章 Security。
+详见 BDB 文档第十章 Security。
 
 ## **参考文档**
 
 <embed src="/viys/docs/docs-13-0402-13-00zi-Base-Device-Behavior-Specification.pdf" type="application/pdf" width="100%" height="600px">
+
