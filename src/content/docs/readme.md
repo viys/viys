@@ -34,7 +34,7 @@ description: 我的嵌入式知识空间，记录学习、分享经验。
     - [Hi3863](https://viys.github.io/viys/k_base/soc/hi3863)
     - [K210](https://viys.github.io/viys/k_base/soc/k210)
 - **无线技术**:
-    - [Zigbee 基础](https://viys.github.io/viys/k_base/wireless/zigbee/1_ZigBee_foundation)
+    - [Zigbee 基础](https://viys.github.io/viys/k_base/wireless/zigbee/1_zigbee_foundation)
 - **开发工具**:
     - [CMake](https://viys.github.io/viys/k_base/tool/cmake)
     - [Docker](https://viys.github.io/viys/k_base/tool/docker)
