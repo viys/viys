@@ -50,9 +50,9 @@ description: 我的嵌入式知识空间，记录学习、分享经验。
 
 这里记录了一些我动手的实践项目。
 
-- [1969m 音频放大器](https://viys.github.io/viys/k_base/project/1969m)
-- [数控电源](https://viys.github.io/viys/k_base/project/power_source)
-- [PowerShell 速启](https://viys.github.io/viys/k_base/project/pwsh_shortcut_alias)
+- [1969m 音频放大器](https://viys.github.io/viys/project/1969m)
+- [数控电源](https://viys.github.io/viys/project/power_source)
+- [PowerShell 速启](https://viys.github.io/viys/project/pwsh_shortcut_alias)
 
 ---
 
