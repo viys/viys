@@ -36,11 +36,11 @@ description: 我的嵌入式知识空间，记录学习、分享经验。
 - **无线技术**:
     - [Zigbee 基础](https://viys.github.io/viys/k_base/wireless/zigbee/1_zigbee_foundation)
 - **开发工具**:
-    - [CMake](https://viys.github.io/viys/k_base/tool/cmake)
-    - [Docker](https://viys.github.io/viys/k_base/tool/docker)
-    - [Git](https://viys.github.io/viys/k_base/tool/git)
-    - [VSCode](https://viys.github.io/viys/k_base/tool/vscode)
-    - ... 更多工具见[工具集](https://viys.github.io/viys/k_base/tool/)
+    - [CMake](https://viys.github.io/viys/k_base/tools/cmake)
+    - [Docker](https://viys.github.io/viys/k_base/tools/docker)
+    - [Git](https://viys.github.io/viys/k_base/tools/git)
+    - [VSCode](https://viys.github.io/viys/k_base/tools/vscode)
+    - ... 更多工具见 Tool 目录
 - **第三方库**:
     - [cutest: C 语言单元测试框架](https://viys.github.io/viys/k_base/third_party/cutest)
     - [LVGL: 轻量级嵌入式图形库](https://viys.github.io/viys/k_base/third_party/lvgl)
