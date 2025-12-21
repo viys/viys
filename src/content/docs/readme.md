@@ -25,11 +25,11 @@ description: 我的嵌入式知识空间，记录学习、分享经验。
 这里沉淀了我在嵌入式学习过程中的各类笔记与总结。
 
 - **程序设计**
-  - [C 语言面向对象编程（OOPC）](https://viys.github.io/viys/k_base/program_paradigm/oopc): C 语言的面向对象编程（OOPC）。
-  - [面向切面编程（AOP）](https://viys.github.io/viys/k_base/program_paradigm/aop): C 语言的面向切面编程（AOP）。
+  - [C 语言面向对象编程（OOPC）](https://viys.github.io/viys/k_base/program_paradigm/oopc)
+  - [面向切面编程（AOP）](https://viys.github.io/viys/k_base/program_paradigm/aop)
 
 - **实时操作系统**:
-    - [UCOSIII 学习笔记](https://viys.github.io/viys/k_base/rtos/UCOSIII)
+    - [μC/OSIII 学习笔记](https://viys.github.io/viys/k_base/rtos/UCOSIII)
     - [Zephyr RTOS 简介](https://viys.github.io/viys/k_base/rtos/zephyr)
 - **单片机相关**:
     - [ESP32 Docker 环境搭建](https://viys.github.io/viys/k_base/soc/esp32_docker)
