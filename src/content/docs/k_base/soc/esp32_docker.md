@@ -4,6 +4,9 @@ title: ESP32 Docker 开发环境
 
 # 使用 Docker 设置 ESP32 开发环境
 
+> 项目链接：
+> [https://github.com/viys/esp32_docker_tamplate.git](https://github.com/viys/esp32_docker_tamplate.git)
+
 本指南介绍了如何使用 Docker 设置 ESP32 开发环境，并提供了一些 PowerShell 和 Bash 脚本来简化开发流程。这些脚本帮助您创建项目、设置目标芯片、编译、烧录和监视 ESP32 项目。
 
 ## 目录

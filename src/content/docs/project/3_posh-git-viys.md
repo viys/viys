@@ -1,5 +1,5 @@
 ---
-title: posh-git-viys
+title: Git Prompt 配置器
 ---
 
 # 🧩posh-git-viys

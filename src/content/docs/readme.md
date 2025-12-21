@@ -24,35 +24,45 @@ description: 我的嵌入式知识空间，记录学习、分享经验。
 
 这里沉淀了我在嵌入式学习过程中的各类笔记与总结。
 
-- **[编程范式](https://viys.github.io/viys/k_base/program_paradigm/oopc)**: 探索 C 语言的面向对象编程（OOPC）和面向切面编程（AOP）。
-- **实时操作系统 (RTOS)**:
+- **程序设计**
+  - [C 语言面向对象编程（OOPC）](https://viys.github.io/viys/k_base/program_paradigm/oopc): C 语言的面向对象编程（OOPC）。
+  - [面向切面编程（AOP）](https://viys.github.io/viys/k_base/program_paradigm/aop): C 语言的面向切面编程（AOP）。
+
+- **实时操作系统**:
     - [UCOSIII 学习笔记](https://viys.github.io/viys/k_base/rtos/UCOSIII)
     - [Zephyr RTOS 简介](https://viys.github.io/viys/k_base/rtos/zephyr)
-- **片上系统 (SoC)**:
+- **单片机相关**:
     - [ESP32 Docker 环境搭建](https://viys.github.io/viys/k_base/soc/esp32_docker)
     - [GD32VW553](https://viys.github.io/viys/k_base/soc/gd32vw553)
     - [Hi3863](https://viys.github.io/viys/k_base/soc/hi3863)
     - [K210](https://viys.github.io/viys/k_base/soc/k210)
-- **无线技术**:
-    - [Zigbee 基础](https://viys.github.io/viys/k_base/wireless/zigbee/1_zigbee_foundation)
+- **第三方库**:
+    - [C 语言单元测试框架](https://viys.github.io/viys/k_base/third_party/cutest)
+    - [嵌入式DEBUG方法](https://viys.github.io/viys/k_base/third_party/debug)
+    - [LVGL](https://viys.github.io/viys/k_base/third_party/lvgl)
+    - [串口二维码生成库](https://viys.github.io/viys/k_base/third_party/qrcode)
 - **开发工具**:
     - [CMake](https://viys.github.io/viys/k_base/tools/cmake)
+    - [CppCheck](https://viys.github.io/viys/k_base/tools/cppcheck)
     - [Docker](https://viys.github.io/viys/k_base/tools/docker)
+    - [Doxygen](https://viys.github.io/viys/k_base/tools/doxygen)
     - [Git](https://viys.github.io/viys/k_base/tools/git)
+    - [KConfig](https://viys.github.io/viys/k_base/tools/kconfig)
+    - [OpenOCD](https://viys.github.io/viys/k_base/tools/openocd)
+    - [PowerShell](https://viys.github.io/viys/k_base/tools/powershell)
     - [VSCode](https://viys.github.io/viys/k_base/tools/vscode)
-    - ... 更多工具见 Tool 目录
-- **第三方库**:
-    - [cutest: C 语言单元测试框架](https://viys.github.io/viys/k_base/third_party/cutest)
-    - [LVGL: 轻量级嵌入式图形库](https://viys.github.io/viys/k_base/third_party/lvgl)
-    - [qrcode: 二维码生成库](https://viys.github.io/viys/k_base/third_party/qrcode)
+    - [Windows Subsystem for Linux (WSL)](https://viys.github.io/viys/k_base/tools/wsl)
+- **无线技术**:
+    - [Zigbee 基础](https://viys.github.io/viys/k_base/wireless/zigbee/1_zigbee_foundation)
 
 ### 项目实践 (`project`)
 
 这里记录了一些我动手的实践项目。
 
-- [1969m 音频放大器](https://viys.github.io/viys/project/1969m)
-- [数控电源](https://viys.github.io/viys/project/power_source)
-- [PowerShell 速启](https://viys.github.io/viys/project/pwsh_shortcut_alias)
+- [1969m 音频放大器](https://viys.github.io/viys/project/1_1969m)
+- [数控电源](https://viys.github.io/viys/project/2_power_source)
+- [Git Prompt 配置器](https://viys.github.io/viys/project/3_posh-git-viys)
+- [PowerShell 速启](https://viys.github.io/viys/project/4_pwsh_shortcut_alias)
 
 ---
 
