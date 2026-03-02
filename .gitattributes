@@ -1,0 +1,81 @@
+# --------------------------------------------------
+# Global settings
+# --------------------------------------------------
+
+# Auto detect text files and normalize to LF in repo
+* text=auto eol=lf
+
+# Windows batch files keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Shell scripts use LF
+*.sh text eol=lf
+
+# --------------------------------------------------
+# Source code
+# --------------------------------------------------
+
+*.c     text
+*.h     text
+*.cpp   text
+*.hpp   text
+*.s     text
+*.S     text
+*.ld    text
+*.cmake text
+CMakeLists.txt text
+*.py    text
+*.java  text
+*.js    text
+*.ts    text
+
+# --------------------------------------------------
+# Documentation
+# --------------------------------------------------
+
+*.md    text
+*.txt   text
+*.rst   text
+
+# --------------------------------------------------
+# Config files
+# --------------------------------------------------
+
+*.json  text
+*.yml   text
+*.yaml  text
+*.xml   text
+*.ini   text
+*.cfg   text
+
+# --------------------------------------------------
+# Binary files (no diff, no merge, no eol conversion)
+# --------------------------------------------------
+
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.bmp   binary
+*.ico   binary
+*.pdf   binary
+*.zip   binary
+*.gz    binary
+*.7z    binary
+*.bin   binary
+*.hex   binary
+*.elf   binary
+*.o     binary
+*.a     binary
+*.so    binary
+*.dll   binary
+*.exe   binary
+
+# --------------------------------------------------
+# Git specific
+# --------------------------------------------------
+
+# Prevent Git from trying to diff firmware
+*.fw    binary
