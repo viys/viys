@@ -5,6 +5,14 @@ import starlightThemeNova from 'starlight-theme-nova'
 
 // https://astro.build/config
 export default defineConfig({
+  vite: {
+    server: {
+      watch: {
+        // 排除大量静态资源目录，减少文件系统轮询压力
+        ignored: ['**/assets/**', '**/public/**', '**/.git/**'],
+      },
+    },
+  },
   site: 'https://viys.github.io',
   base: '/viys',
   integrations: [
