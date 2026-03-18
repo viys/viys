@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="14">
+  <defs>
+    <style>
+      .label{font-size:15px;font-weight:bold;fill:#fff;text-anchor:middle}
+      .sub{font-size:12px;fill:#fff;text-anchor:middle}
+      .side{font-size:12px;fill:#555;font-style:italic}
+      .brace{font-size:13px;font-weight:bold}
+    </style>
+  </defs>
+  <text x="360" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">BLE 协议栈分层结构</text>
+
+  <!-- Application -->
+  <rect x="80" y="45" width="520" height="50" rx="6" fill="#7E57C2" stroke="#4A148C" stroke-width="1.5"/>
+  <text x="340" y="75" class="label">应用层 (Application)</text>
+
+  <!-- GAP + GATT -->
+  <rect x="80" y="105" width="180" height="50" rx="6" fill="#5C6BC0" stroke="#283593" stroke-width="1.5"/>
+  <text x="170" y="135" class="label">GAP</text>
+  <rect x="270" y="105" width="330" height="50" rx="6" fill="#42A5F5" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="435" y="135" class="label">GATT</text>
+  <text x="640" y="135" class="side">← Host 上层</text>
+
+  <!-- L2CAP + SMP -->
+  <rect x="80" y="165" width="350" height="50" rx="6" fill="#26A69A" stroke="#00695C" stroke-width="1.5"/>
+  <text x="255" y="195" class="label">L2CAP</text>
+  <rect x="440" y="165" width="160" height="50" rx="6" fill="#66BB6A" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="520" y="195" class="label">SMP</text>
+  <text x="640" y="195" class="side">← Host 中层</text>
+
+  <!-- HCI -->
+  <rect x="80" y="225" width="520" height="45" rx="6" fill="#BDBDBD" stroke="#616161" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="340" y="253" font-size="15" font-weight="bold" fill="#424242" text-anchor="middle">HCI（可选）</text>
+  <text x="640" y="253" class="side">← Host / Controller</text>
+
+  <!-- Link Layer -->
+  <rect x="80" y="280" width="520" height="50" rx="6" fill="#FFA726" stroke="#E65100" stroke-width="1.5"/>
+  <text x="340" y="310" class="label">Link Layer（链路层）</text>
+  <text x="640" y="310" class="side">← Controller</text>
+
+  <!-- Physical Layer -->
+  <rect x="80" y="340" width="520" height="50" rx="6" fill="#EF5350" stroke="#B71C1C" stroke-width="1.5"/>
+  <text x="340" y="370" class="label">Physical Layer（物理层）</text>
+  <text x="640" y="370" class="side">← Controller</text>
+
+  <!-- Braces: Host -->
+  <line x1="55" y1="45" x2="55" y2="220" stroke="#1565C0" stroke-width="2.5"/>
+  <line x1="55" y1="45" x2="65" y2="45" stroke="#1565C0" stroke-width="2.5"/>
+  <line x1="55" y1="220" x2="65" y2="220" stroke="#1565C0" stroke-width="2.5"/>
+  <text x="47" y="138" class="brace" fill="#1565C0" text-anchor="end" transform="rotate(-90,47,138)">Host</text>
+
+  <!-- Braces: Controller -->
+  <line x1="55" y1="280" x2="55" y2="390" stroke="#E65100" stroke-width="2.5"/>
+  <line x1="55" y1="280" x2="65" y2="280" stroke="#E65100" stroke-width="2.5"/>
+  <line x1="55" y1="390" x2="65" y2="390" stroke="#E65100" stroke-width="2.5"/>
+  <text x="47" y="342" class="brace" fill="#E65100" text-anchor="end" transform="rotate(-90,47,342)">Controller</text>
+</svg>

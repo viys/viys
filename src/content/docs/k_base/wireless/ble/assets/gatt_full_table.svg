@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="12">
+  <text x="360" y="22" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">完整 GATT 表设计（智能灯）</text>
+
+  <!-- ========== Service 1: Generic Access ========== -->
+  <rect x="20" y="40" width="680" height="100" rx="6" fill="#E3F2FD" stroke="#1565C0" stroke-width="2"/>
+  <rect x="20" y="40" width="680" height="28" rx="6" fill="#42A5F5" stroke="#1565C0" stroke-width="2"/>
+  <text x="360" y="60" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Service: Generic Access (0x1800)</text>
+
+  <text x="45" y="88" font-size="11" fill="#1565C0" font-weight="bold">Device Name</text>
+  <text x="180" y="88" font-size="11" fill="#555">0x2A00　R　　Value: "Smart Light"</text>
+  <text x="45" y="108" font-size="11" fill="#1565C0" font-weight="bold">Appearance</text>
+  <text x="180" y="108" font-size="11" fill="#555">0x2A01　R　　Value: 0x0540 (Generic Light)</text>
+
+  <!-- ========== Service 2: Battery Service ========== -->
+  <rect x="20" y="155" width="680" height="105" rx="6" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2"/>
+  <rect x="20" y="155" width="680" height="28" rx="6" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+  <text x="360" y="175" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Service: Battery Service (0x180F)</text>
+
+  <text x="45" y="203" font-size="11" fill="#2E7D32" font-weight="bold">Battery Level</text>
+  <text x="180" y="203" font-size="11" fill="#555">0x2A19　R, Notify　　Value: uint8 0–100 (%)</text>
+  <rect x="55" y="215" width="180" height="18" rx="3" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="65" y="229" font-size="10" fill="#2E7D32">Desc: CCCD 0x2902　R/W</text>
+
+  <!-- ========== Service 3: Light Control (Custom) ========== -->
+  <rect x="20" y="275" width="680" height="430" rx="6" fill="#FFF3E0" stroke="#E65100" stroke-width="2"/>
+  <rect x="20" y="275" width="680" height="28" rx="6" fill="#FFA726" stroke="#E65100" stroke-width="2"/>
+  <text x="360" y="295" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Service: Light Control Service (0xFFF0, Custom)</text>
+
+  <!-- Char: Light Switch -->
+  <rect x="40" y="315" width="645" height="55" rx="4" fill="#fff" stroke="#E65100" stroke-width="1"/>
+  <text x="55" y="335" font-size="11" fill="#E65100" font-weight="bold">Light Switch</text>
+  <text x="180" y="335" font-size="11" fill="#555">0xFFF1　W, WWR</text>
+  <text x="55" y="355" font-size="11" fill="#555">Value: uint8　0x00=OFF　0x01=ON　0x02=Toggle</text>
+
+  <!-- Char: Light Status -->
+  <rect x="40" y="380" width="645" height="75" rx="4" fill="#fff" stroke="#E65100" stroke-width="1"/>
+  <text x="55" y="400" font-size="11" fill="#E65100" font-weight="bold">Light Status</text>
+  <text x="180" y="400" font-size="11" fill="#555">0xFFF2　R, Notify</text>
+  <text x="55" y="420" font-size="11" fill="#555">Value: uint8　0x00=OFF　0x01=ON</text>
+  <rect x="55" y="430" width="200" height="18" rx="3" fill="#FFE0B2" stroke="#E65100" stroke-width="1"/>
+  <text x="65" y="444" font-size="10" fill="#E65100">Desc: CCCD 0x2902　R/W</text>
+  <rect x="270" y="430" width="280" height="18" rx="3" fill="#FFE0B2" stroke="#E65100" stroke-width="1"/>
+  <text x="280" y="444" font-size="10" fill="#E65100">Desc: User Desc 0x2901　"Light ON/OFF Status"</text>
+
+  <!-- Char: Brightness -->
+  <rect x="40" y="465" width="645" height="45" rx="4" fill="#fff" stroke="#E65100" stroke-width="1"/>
+  <text x="55" y="485" font-size="11" fill="#E65100" font-weight="bold">Brightness</text>
+  <text x="180" y="485" font-size="11" fill="#555">0xFFF3　R, W　　Value: uint8 0–100 (%)</text>
+
+  <!-- Char: Color Temperature -->
+  <rect x="40" y="520" width="645" height="45" rx="4" fill="#fff" stroke="#E65100" stroke-width="1"/>
+  <text x="55" y="540" font-size="11" fill="#E65100" font-weight="bold">Color Temperature</text>
+  <text x="210" y="540" font-size="11" fill="#555">0xFFF4　R, W　　Value: uint16 (LE) 2700–6500 K</text>
+
+  <!-- Char: Fade Time -->
+  <rect x="40" y="575" width="645" height="45" rx="4" fill="#fff" stroke="#E65100" stroke-width="1"/>
+  <text x="55" y="595" font-size="11" fill="#E65100" font-weight="bold">Fade Time</text>
+  <text x="180" y="595" font-size="11" fill="#555">0xFFF5　R, W　　Value: uint16 (LE) 0–65535 ms</text>
+</svg>

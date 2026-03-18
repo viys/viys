@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="200" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="13">
+  <text x="340" y="22" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">广播遥控 — 控制数据帧格式 (AD Type = 0xFF)</text>
+
+  <!-- Fields -->
+  <rect x="20" y="45" width="140" height="55" rx="5" fill="#EDE7F6" stroke="#7E57C2" stroke-width="1.5"/>
+  <text x="90" y="68" text-anchor="middle" font-size="13" font-weight="bold" fill="#7E57C2">Company ID</text>
+  <text x="90" y="88" text-anchor="middle" font-size="11" fill="#555">2 bytes（小端序）</text>
+
+  <rect x="160" y="45" width="100" height="55" rx="5" fill="#FCE4EC" stroke="#C62828" stroke-width="1.5"/>
+  <text x="210" y="68" text-anchor="middle" font-size="13" font-weight="bold" fill="#C62828">Cmd</text>
+  <text x="210" y="88" text-anchor="middle" font-size="11" fill="#555">1 byte</text>
+
+  <rect x="260" y="45" width="140" height="55" rx="5" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="330" y="68" text-anchor="middle" font-size="13" font-weight="bold" fill="#1565C0">Device ID</text>
+  <text x="330" y="88" text-anchor="middle" font-size="11" fill="#555">2 bytes（小端序）</text>
+
+  <rect x="400" y="45" width="120" height="55" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="460" y="68" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E7D32">Sequence</text>
+  <text x="460" y="88" text-anchor="middle" font-size="11" fill="#555">1 byte</text>
+
+  <rect x="520" y="45" width="140" height="55" rx="5" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5"/>
+  <text x="590" y="68" text-anchor="middle" font-size="13" font-weight="bold" fill="#E65100">Checksum</text>
+  <text x="590" y="88" text-anchor="middle" font-size="11" fill="#555">1 byte（XOR）</text>
+
+  <!-- Legends -->
+  <text x="20" y="130" font-size="11" fill="#C62828" font-weight="bold">Cmd: </text>
+  <text x="55" y="130" font-size="11" fill="#555">0x01 = 开灯　0x02 = 关灯　0x03 = Toggle</text>
+
+  <text x="20" y="150" font-size="11" fill="#1565C0" font-weight="bold">Device ID: </text>
+  <text x="90" y="150" font-size="11" fill="#555">目标设备 ID，0xFFFF = 广播给所有设备</text>
+
+  <text x="20" y="170" font-size="11" fill="#2E7D32" font-weight="bold">Sequence: </text>
+  <text x="92" y="170" font-size="11" fill="#555">递增序列号，用于去重防重复执行</text>
+</svg>

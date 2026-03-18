@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="400" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="12">
+  <text x="350" y="22" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">自定义 GATT Service 设计（灯控）</text>
+
+  <!-- Service Header -->
+  <rect x="20" y="40" width="660" height="35" rx="6" fill="#42A5F5" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="350" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">Service: Light Control Service　UUID: 0xFFF0（自定义）</text>
+
+  <!-- Char 1: Light Switch -->
+  <rect x="45" y="85" width="620" height="60" rx="5" fill="#FFF3E0" stroke="#E65100" stroke-width="1.2"/>
+  <text x="65" y="105" font-size="12" font-weight="bold" fill="#E65100">Light Switch　UUID: 0xFFF1</text>
+  <text x="65" y="123" font-size="11" fill="#555">Properties: Write, Write Without Response</text>
+  <text x="65" y="139" font-size="11" fill="#555">Value: uint8　0x00=OFF　0x01=ON　0x02=Toggle</text>
+
+  <!-- Char 2: Light Status -->
+  <rect x="45" y="155" width="620" height="75" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="65" y="175" font-size="12" font-weight="bold" fill="#2E7D32">Light Status　UUID: 0xFFF2</text>
+  <text x="65" y="193" font-size="11" fill="#555">Properties: Read, Notify</text>
+  <text x="65" y="209" font-size="11" fill="#555">Value: uint8　0x00=OFF　0x01=ON</text>
+  <rect x="420" y="185" width="230" height="20" rx="3" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="535" y="200" text-anchor="middle" font-size="10" fill="#2E7D32">Descriptor: CCCD (0x2902)</text>
+
+  <!-- Char 3: Brightness -->
+  <rect x="45" y="240" width="620" height="55" rx="5" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="65" y="260" font-size="12" font-weight="bold" fill="#1565C0">Brightness　UUID: 0xFFF3</text>
+  <text x="65" y="278" font-size="11" fill="#555">Properties: Read, Write　　Value: uint8　0–100 (%)</text>
+
+  <!-- Char 4: Color Temperature -->
+  <rect x="45" y="305" width="620" height="55" rx="5" fill="#EDE7F6" stroke="#7E57C2" stroke-width="1.2"/>
+  <text x="65" y="325" font-size="12" font-weight="bold" fill="#7E57C2">Color Temperature　UUID: 0xFFF4</text>
+  <text x="65" y="343" font-size="11" fill="#555">Properties: Read, Write　　Value: uint16（小端序）　2700–6500 K</text>
+
+  <!-- Connecting lines -->
+  <line x1="35" y1="75" x2="35" y2="360" stroke="#42A5F5" stroke-width="2"/>
+  <line x1="35" y1="115" x2="45" y2="115" stroke="#42A5F5" stroke-width="2"/>
+  <line x1="35" y1="192" x2="45" y2="192" stroke="#42A5F5" stroke-width="2"/>
+  <line x1="35" y1="267" x2="45" y2="267" stroke="#42A5F5" stroke-width="2"/>
+  <line x1="35" y1="332" x2="45" y2="332" stroke="#42A5F5" stroke-width="2"/>
+</svg>

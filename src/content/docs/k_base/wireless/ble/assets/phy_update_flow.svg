@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="250" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="12">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#1565C0"/></marker>
+    <marker id="al" markerWidth="8" markerHeight="6" refX="0" refY="3" orient="auto-start-reverse"><path d="M0,0 L8,3 L0,6" fill="#E65100"/></marker>
+  </defs>
+  <text x="350" y="22" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">PHY Update 流程（连接后切换 PHY）</text>
+
+  <!-- Lifelines -->
+  <rect x="50" y="40" width="120" height="28" rx="6" fill="#42A5F5"/>
+  <text x="110" y="59" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Central</text>
+  <line x1="110" y1="68" x2="110" y2="240" stroke="#42A5F5" stroke-width="1.8" stroke-dasharray="5,4"/>
+
+  <rect x="520" y="40" width="120" height="28" rx="6" fill="#7E57C2"/>
+  <text x="580" y="59" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Peripheral</text>
+  <line x1="580" y1="68" x2="580" y2="240" stroke="#7E57C2" stroke-width="1.8" stroke-dasharray="5,4"/>
+
+  <!-- Step 1 -->
+  <line x1="115" y1="95" x2="573" y2="95" stroke="#1565C0" stroke-width="1.8" marker-end="url(#ar)"/>
+  <rect x="195" y="79" width="300" height="22" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="345" y="95" text-anchor="middle" font-size="11" fill="#1565C0" font-weight="bold">LL_PHY_REQ (TX PHY, RX PHY)</text>
+
+  <!-- Step 2 -->
+  <line x1="575" y1="135" x2="117" y2="135" stroke="#E65100" stroke-width="1.8" marker-end="url(#al)"/>
+  <rect x="195" y="119" width="300" height="22" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="345" y="135" text-anchor="middle" font-size="11" fill="#E65100" font-weight="bold">LL_PHY_RSP (TX PHY, RX PHY)</text>
+
+  <!-- Step 3 -->
+  <line x1="115" y1="175" x2="573" y2="175" stroke="#1565C0" stroke-width="1.8" marker-end="url(#ar)"/>
+  <rect x="165" y="159" width="360" height="22" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="345" y="175" text-anchor="middle" font-size="11" fill="#1565C0" font-weight="bold">LL_PHY_UPDATE_IND（告知切换时刻及新 PHY）</text>
+
+  <!-- Switch note -->
+  <line x1="60" y1="210" x2="640" y2="210" stroke="#2E7D32" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <rect x="195" y="218" width="300" height="22" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="345" y="234" text-anchor="middle" font-size="11" fill="#2E7D32" font-weight="bold">双方在指定连接事件切换 PHY ✓</text>
+</svg>

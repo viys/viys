@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="680" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="12">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#1565C0"/></marker>
+    <marker id="al" markerWidth="8" markerHeight="6" refX="0" refY="3" orient="auto"><path d="M8,0 L0,3 L8,6" fill="#E65100"/></marker>
+    <marker id="ag" markerWidth="8" markerHeight="6" refX="0" refY="3" orient="auto"><path d="M8,0 L0,3 L8,6" fill="#2E7D32"/></marker>
+  </defs>
+  <text x="390" y="25" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">基于连接的 GATT 完整交互时序</text>
+
+  <!-- Lifelines -->
+  <rect x="50" y="42" width="140" height="32" rx="6" fill="#42A5F5"/>
+  <text x="120" y="63" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Central (APP)</text>
+  <line x1="120" y1="74" x2="120" y2="670" stroke="#42A5F5" stroke-width="1.8" stroke-dasharray="5,4"/>
+
+  <rect x="560" y="42" width="160" height="32" rx="6" fill="#7E57C2"/>
+  <text x="640" y="63" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Peripheral (灯)</text>
+  <line x1="640" y1="74" x2="640" y2="670" stroke="#7E57C2" stroke-width="1.8" stroke-dasharray="5,4"/>
+
+  <!-- 1. CONNECT_REQ -->
+  <line x1="125" y1="100" x2="633" y2="100" stroke="#1565C0" stroke-width="1.8" marker-end="url(#ar)"/>
+  <text x="380" y="95" text-anchor="middle" font-size="12" fill="#1565C0" font-weight="bold">CONNECT_REQ</text>
+
+  <!-- Connection Established -->
+  <line x1="635" y1="135" x2="127" y2="135" stroke="#E65100" stroke-width="1.8" marker-end="url(#al)"/>
+  <text x="380" y="130" text-anchor="middle" font-size="12" fill="#E65100" font-weight="bold">Connection Established</text>
+
+  <!-- Separator -->
+  <line x1="40" y1="158" x2="740" y2="158" stroke="#ddd" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- 2. MTU Exchange -->
+  <rect x="700" y="165" width="70" height="48" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="735" y="183" text-anchor="middle" font-size="10" fill="#2E7D32">协商</text>
+  <text x="735" y="198" text-anchor="middle" font-size="10" fill="#2E7D32">MTU</text>
+  <line x1="125" y1="175" x2="633" y2="175" stroke="#1565C0" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="380" y="170" text-anchor="middle" font-size="11" fill="#1565C0">ATT_EXCHANGE_MTU_REQ</text>
+  <line x1="635" y1="200" x2="127" y2="200" stroke="#E65100" stroke-width="1.5" marker-end="url(#al)"/>
+  <text x="380" y="195" text-anchor="middle" font-size="11" fill="#E65100">ATT_EXCHANGE_MTU_RSP</text>
+
+  <!-- Separator -->
+  <line x1="40" y1="220" x2="740" y2="220" stroke="#ddd" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- 3. Discover Services -->
+  <rect x="700" y="227" width="70" height="48" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="735" y="245" text-anchor="middle" font-size="10" fill="#1565C0">发现</text>
+  <text x="735" y="260" text-anchor="middle" font-size="10" fill="#1565C0">Service</text>
+  <line x1="125" y1="237" x2="633" y2="237" stroke="#1565C0" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="380" y="232" text-anchor="middle" font-size="11" fill="#1565C0">ATT_READ_BY_GROUP_TYPE_REQ</text>
+  <line x1="635" y1="262" x2="127" y2="262" stroke="#E65100" stroke-width="1.5" marker-end="url(#al)"/>
+  <text x="380" y="257" text-anchor="middle" font-size="11" fill="#E65100">ATT_READ_BY_GROUP_TYPE_RSP</text>
+
+  <!-- 4. Discover Characteristics -->
+  <rect x="700" y="282" width="70" height="48" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="735" y="300" text-anchor="middle" font-size="10" fill="#1565C0">发现</text>
+  <text x="735" y="315" text-anchor="middle" font-size="10" fill="#1565C0">Char</text>
+  <line x1="125" y1="292" x2="633" y2="292" stroke="#1565C0" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="380" y="287" text-anchor="middle" font-size="11" fill="#1565C0">ATT_READ_BY_TYPE_REQ</text>
+  <line x1="635" y1="317" x2="127" y2="317" stroke="#E65100" stroke-width="1.5" marker-end="url(#al)"/>
+  <text x="380" y="312" text-anchor="middle" font-size="11" fill="#E65100">ATT_READ_BY_TYPE_RSP</text>
+
+  <!-- 5. Discover Descriptors -->
+  <rect x="700" y="337" width="70" height="48" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="735" y="355" text-anchor="middle" font-size="10" fill="#1565C0">发现</text>
+  <text x="735" y="370" text-anchor="middle" font-size="10" fill="#1565C0">Desc</text>
+  <line x1="125" y1="347" x2="633" y2="347" stroke="#1565C0" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="380" y="342" text-anchor="middle" font-size="11" fill="#1565C0">ATT_FIND_INFORMATION_REQ</text>
+  <line x1="635" y1="372" x2="127" y2="372" stroke="#E65100" stroke-width="1.5" marker-end="url(#al)"/>
+  <text x="380" y="367" text-anchor="middle" font-size="11" fill="#E65100">ATT_FIND_INFORMATION_RSP</text>
+
+  <!-- Separator -->
+  <line x1="40" y1="395" x2="740" y2="395" stroke="#ddd" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- 6. Subscribe CCCD -->
+  <rect x="700" y="402" width="70" height="48" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="735" y="420" text-anchor="middle" font-size="10" fill="#E65100">订阅</text>
+  <text x="735" y="435" text-anchor="middle" font-size="10" fill="#E65100">Notify</text>
+  <line x1="125" y1="412" x2="633" y2="412" stroke="#1565C0" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="380" y="407" text-anchor="middle" font-size="11" fill="#1565C0">Write CCCD = 0x0001（订阅 Light Status）</text>
+  <line x1="635" y1="437" x2="127" y2="437" stroke="#E65100" stroke-width="1.5" marker-end="url(#al)"/>
+  <text x="380" y="432" text-anchor="middle" font-size="11" fill="#E65100">Write Response</text>
+
+  <!-- Separator -->
+  <line x1="40" y1="460" x2="740" y2="460" stroke="#ddd" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- 7. Write command -->
+  <rect x="700" y="467" width="70" height="48" rx="4" fill="#FCE4EC" stroke="#C62828" stroke-width="1"/>
+  <text x="735" y="485" text-anchor="middle" font-size="10" fill="#C62828">发送</text>
+  <text x="735" y="500" text-anchor="middle" font-size="10" fill="#C62828">命令</text>
+  <line x1="125" y1="477" x2="633" y2="477" stroke="#1565C0" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="380" y="472" text-anchor="middle" font-size="11" fill="#1565C0">Write Light Switch = 0x01（开灯）</text>
+  <line x1="635" y1="502" x2="127" y2="502" stroke="#E65100" stroke-width="1.5" marker-end="url(#al)"/>
+  <text x="380" y="497" text-anchor="middle" font-size="11" fill="#E65100">Write Response</text>
+
+  <!-- Separator -->
+  <line x1="40" y1="525" x2="740" y2="525" stroke="#ddd" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- 8. Notification -->
+  <rect x="700" y="535" width="70" height="48" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="735" y="553" text-anchor="middle" font-size="10" fill="#2E7D32">状态</text>
+  <text x="735" y="568" text-anchor="middle" font-size="10" fill="#2E7D32">推送</text>
+  <line x1="635" y1="555" x2="127" y2="555" stroke="#2E7D32" stroke-width="2" marker-end="url(#ag)"/>
+  <text x="380" y="548" text-anchor="middle" font-size="12" fill="#2E7D32" font-weight="bold">Notify Light Status = 0x01（灯已开启）</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="250" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="13">
+  <text x="390" y="22" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">BLE 广播信道与 Wi-Fi 信道的频率关系</text>
+
+  <!-- Legend -->
+  <circle cx="580" cy="20" r="6" fill="#1565C0"/>
+  <text x="592" y="24" font-size="11" fill="#555">BLE 广播信道</text>
+  <rect x="680" y="14" width="12" height="12" rx="2" fill="#FFCDD2" stroke="#E53935" stroke-width="1"/>
+  <text x="696" y="24" font-size="11" fill="#555">Wi-Fi</text>
+
+  <!-- Wi-Fi bands (top area, well above axis) -->
+  <rect x="115" y="42" width="130" height="50" rx="5" fill="#FFCDD2" stroke="#E53935" stroke-width="1.2" opacity="0.5"/>
+  <text x="180" y="64" text-anchor="middle" font-size="13" font-weight="bold" fill="#C62828">Wi-Fi Ch1</text>
+  <text x="180" y="82" text-anchor="middle" font-size="11" fill="#C62828">2412 MHz</text>
+
+  <rect x="310" y="42" width="130" height="50" rx="5" fill="#FFCDD2" stroke="#E53935" stroke-width="1.2" opacity="0.5"/>
+  <text x="375" y="64" text-anchor="middle" font-size="13" font-weight="bold" fill="#C62828">Wi-Fi Ch6</text>
+  <text x="375" y="82" text-anchor="middle" font-size="11" fill="#C62828">2437 MHz</text>
+
+  <rect x="505" y="42" width="130" height="50" rx="5" fill="#FFCDD2" stroke="#E53935" stroke-width="1.2" opacity="0.5"/>
+  <text x="570" y="64" text-anchor="middle" font-size="13" font-weight="bold" fill="#C62828">Wi-Fi Ch11</text>
+  <text x="570" y="82" text-anchor="middle" font-size="11" fill="#C62828">2462 MHz</text>
+
+  <!-- Wi-Fi dashed lines to axis -->
+  <line x1="180" y1="92" x2="180" y2="165" stroke="#E53935" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <line x1="375" y1="92" x2="375" y2="165" stroke="#E53935" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <line x1="570" y1="92" x2="570" y2="165" stroke="#E53935" stroke-width="1.2" stroke-dasharray="4,3"/>
+
+  <!-- Frequency axis (pushed down to y=165) -->
+  <line x1="40" y1="165" x2="750" y2="165" stroke="#999" stroke-width="1.5"/>
+
+  <!-- BLE Ch37 — frequency label BELOW circle -->
+  <circle cx="80" cy="165" r="15" fill="#1565C0"/>
+  <text x="80" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">37</text>
+  <text x="80" y="200" text-anchor="middle" font-size="11" fill="#1565C0" font-weight="bold">2402 MHz</text>
+  <text x="80" y="216" text-anchor="middle" font-size="10" fill="#1565C0">位于间隙</text>
+
+  <!-- BLE Ch38 -->
+  <circle cx="290" cy="165" r="15" fill="#1565C0"/>
+  <text x="290" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">38</text>
+  <text x="290" y="200" text-anchor="middle" font-size="11" fill="#1565C0" font-weight="bold">2426 MHz</text>
+  <text x="290" y="216" text-anchor="middle" font-size="10" fill="#1565C0">位于间隙</text>
+
+  <!-- BLE Ch39 -->
+  <circle cx="720" cy="165" r="15" fill="#1565C0"/>
+  <text x="720" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">39</text>
+  <text x="720" y="200" text-anchor="middle" font-size="11" fill="#1565C0" font-weight="bold">2480 MHz</text>
+  <text x="720" y="216" text-anchor="middle" font-size="10" fill="#1565C0">位于末端</text>
+</svg>
