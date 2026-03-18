@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="220" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="13">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#1565C0"/></marker>
+    <marker id="al" markerWidth="8" markerHeight="6" refX="0" refY="3" orient="auto-start-reverse"><path d="M0,0 L8,3 L0,6" fill="#E65100"/></marker>
+  </defs>
+
+  <!-- Lifelines -->
+  <rect x="30" y="10" width="140" height="32" rx="6" fill="#42A5F5" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="100" y="31" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Peripheral (从机)</text>
+  <line x1="100" y1="42" x2="100" y2="210" stroke="#42A5F5" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <rect x="340" y="10" width="140" height="32" rx="6" fill="#7E57C2" stroke="#4A148C" stroke-width="1.5"/>
+  <text x="410" y="31" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Central (主机)</text>
+  <line x1="410" y1="42" x2="410" y2="210" stroke="#7E57C2" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Step 1: ADV_IND -->
+  <line x1="105" y1="70" x2="403" y2="70" stroke="#1565C0" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="145" y="56" width="220" height="24" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="255" y="73" text-anchor="middle" font-size="12" fill="#1565C0" font-weight="bold">ADV_IND / ADV_SCAN_IND</text>
+
+  <!-- Step 2: SCAN_REQ -->
+  <line x1="405" y1="120" x2="107" y2="120" stroke="#E65100" stroke-width="2" marker-end="url(#al)"/>
+  <rect x="150" y="106" width="210" height="24" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="255" y="123" text-anchor="middle" font-size="12" fill="#E65100" font-weight="bold">SCAN_REQ</text>
+  <text x="420" y="115" font-size="10" fill="#888">想获取更多信息</text>
+
+  <!-- Step 3: SCAN_RSP -->
+  <line x1="105" y1="170" x2="403" y2="170" stroke="#1565C0" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="140" y="156" width="230" height="24" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="255" y="173" text-anchor="middle" font-size="12" fill="#1565C0" font-weight="bold">SCAN_RSP (额外广播数据)</text>
+</svg>

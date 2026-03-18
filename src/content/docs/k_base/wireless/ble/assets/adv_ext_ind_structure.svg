@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="65" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="12">
+  <text x="10" y="15" font-size="11" fill="#1565C0" font-weight="bold">ADV_EXT_IND PDU 结构</text>
+  <rect x="10" y="25" width="140" height="30" rx="4" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="80" y="39" text-anchor="middle" font-size="11" fill="#1a1a1a">ExtHdrLen (6b)</text>
+  <text x="80" y="51" text-anchor="middle" font-size="10" fill="#555">+ AdvMode (2b)</text>
+  <rect x="150" y="25" width="400" height="30" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="350" y="44" text-anchor="middle" font-size="12" fill="#1a1a1a">Extended Header (AdvA, ADI, AuxPtr, SyncInfo...)</text>
+  <rect x="550" y="25" width="150" height="30" rx="4" fill="#F5F5F5" stroke="#9E9E9E" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <text x="625" y="44" text-anchor="middle" font-size="12" fill="#888">AdvData (通常空)</text>
+</svg>

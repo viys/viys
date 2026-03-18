@@ -26,6 +26,7 @@ title: BLE 基础知识整理
 14. [应用场景：基于连接的 GATT 控制](#14-应用场景基于连接的-gatt-控制)
 15. [习题解答](#15-习题解答)
 16. [核心参数速查与常见问题排查](#16-核心参数速查与常见问题排查)
+17. [参考资料下载](#参考资料下载)
 
 ---
 
@@ -907,4 +908,12 @@ Hop      = 7 → 跳频步长 7
 
 ---
 
-*文档整理自《BLE基础培训框架》，结合蓝牙核心规范 v4.2 相关章节。如需深入参考，可查阅 `Core_v4.2.pdf` 及 `GATT_Specification_Supplement.pdf`。*
+## 参考资料下载
+
+本文整理自《BLE基础培训框架》，结合以下蓝牙官方规范文档。点击下载：
+
+| 文档 | 说明 |
+|------|------|
+| [Bluetooth Core Specification v4.2](/viys/docs/Core_v4.2.pdf) | 蓝牙核心规范完整版，涵盖物理层、链路层、L2CAP、ATT、GATT、SMP 等所有协议 |
+| [Core Specification Supplement v12](/viys/docs/CSS_v12.pdf) | 核心规范补充文档，定义广播数据类型（AD Type）、EIR 格式等 |
+| [GATT Specification Supplement](/viys/docs/GATT_Specification_Supplement.pdf) | GATT 规范补充，定义标准特征值的数据格式与解析规则 |

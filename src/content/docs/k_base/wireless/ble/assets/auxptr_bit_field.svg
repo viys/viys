@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="100" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="12">
+  <text x="10" y="15" font-size="11" fill="#E65100" font-weight="bold">AuxPtr 字段结构 (3 字节 = 24 位)</text>
+
+  <!-- Byte 0 -->
+  <rect x="10" y="30" width="180" height="28" rx="4" fill="#FFE0B2" stroke="#E65100" stroke-width="1.2"/>
+  <text x="100" y="48" text-anchor="middle" font-size="11" fill="#1a1a1a">Channel Index (6b)</text>
+  <rect x="190" y="30" width="60" height="28" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1.2"/>
+  <text x="220" y="48" text-anchor="middle" font-size="11" fill="#1a1a1a">CA (1b)</text>
+  <rect x="250" y="30" width="100" height="28" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1.2"/>
+  <text x="300" y="48" text-anchor="middle" font-size="11" fill="#1a1a1a">OffsetUnits (1b)</text>
+
+  <!-- Byte 1-2 -->
+  <rect x="350" y="30" width="180" height="28" rx="4" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="440" y="48" text-anchor="middle" font-size="11" fill="#1a1a1a">AUX Offset (13b)</text>
+  <rect x="530" y="30" width="100" height="28" rx="4" fill="#EDE7F6" stroke="#7E57C2" stroke-width="1.2"/>
+  <text x="580" y="48" text-anchor="middle" font-size="11" fill="#1a1a1a">AUX PHY (3b)</text>
+
+  <!-- Bit scale -->
+  <text x="100" y="80" text-anchor="middle" font-size="10" fill="#888">bit 0~5</text>
+  <text x="220" y="80" text-anchor="middle" font-size="10" fill="#888">bit 6</text>
+  <text x="300" y="80" text-anchor="middle" font-size="10" fill="#888">bit 7</text>
+  <text x="440" y="80" text-anchor="middle" font-size="10" fill="#888">bit 8~20</text>
+  <text x="580" y="80" text-anchor="middle" font-size="10" fill="#888">bit 21~23</text>
+</svg>

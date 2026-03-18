@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="65" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="12">
+  <text x="10" y="15" font-size="11" fill="#E65100" font-weight="bold">L2CAP 数据包格式</text>
+  <rect x="10" y="25" width="130" height="30" rx="4" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="75" y="44" text-anchor="middle" font-size="12" fill="#1a1a1a">LL Header (2B)</text>
+  <rect x="140" y="25" width="140" height="30" rx="4" fill="#FFE0B2" stroke="#E65100" stroke-width="1.2"/>
+  <text x="210" y="44" text-anchor="middle" font-size="12" fill="#1a1a1a">L2CAP Length (2B)</text>
+  <rect x="280" y="25" width="130" height="30" rx="4" fill="#FFE0B2" stroke="#E65100" stroke-width="1.2"/>
+  <text x="345" y="44" text-anchor="middle" font-size="12" fill="#1a1a1a">L2CAP CID (2B)</text>
+  <rect x="410" y="25" width="330" height="30" rx="4" fill="#FCE4EC" stroke="#C62828" stroke-width="1.2"/>
+  <text x="575" y="44" text-anchor="middle" font-size="12" fill="#1a1a1a">ATT PDU</text>
+</svg>

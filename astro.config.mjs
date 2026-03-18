@@ -1,37 +1,29 @@
-// @ts-check
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
-import starlightThemeObsidian from 'starlight-theme-obsidian'
+// astro.config.mjs
+import starlight from '@astrojs/starlight'
+import { defineConfig } from 'astro/config'
+import starlightThemeNova from 'starlight-theme-nova'
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://viys.github.io',
-  	base: '/viys',
-	integrations: [
-		starlight({
-			plugins: [starlightThemeObsidian({
-				backlinks: false,
-				graph: false
-			})],
-			title: 'My Blog',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/viys' }],
-			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: '知识空间简介', slug: 'readme' },
-					],
-				},
-				{
-					label: 'K-Base',
-					autogenerate: { directory: 'k_base' },
-				},
-				{
-					label: 'Projectd',
-					autogenerate: { directory: 'project' },
-				},
-			],
-		}),
-	],
+  site: 'https://viys.github.io',
+  base: '/viys',
+  integrations: [
+    starlight({
+      plugins: [
+        starlightThemeNova(/* options */), 
+      ],
+      title: 'My Blog',
+      social: [
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/viys' }
+      ],
+      sidebar: [
+        {
+          label: 'Guides',
+          items: [{ label: '知识空间简介', slug: 'readme' }]
+        },
+        { label: 'K-Base', autogenerate: { directory: 'k_base' } },
+        { label: 'Projectd', autogenerate: { directory: 'project' } }
+      ],
+    }),
+  ],
 });

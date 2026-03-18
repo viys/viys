@@ -1,21 +1,28 @@
-# 使用官方 Node LTS
-FROM node:20-bullseye
+# 使用 Node 22 LTS slim 镜像
+FROM node:22-slim
+
+# 安装 sharp 依赖（如果项目用到）
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libvips-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# 安装 pnpm（如果项目用它）
+RUN npm install -g pnpm
 
 # 设置工作目录
 WORKDIR /app
 
-# 先复制依赖文件（独立分层，利用缓存）
+# 复制 package 文件
 COPY package.json pnpm-lock.yaml* ./
 
-# 安装 pnpm 和依赖
-RUN npm install -g pnpm \
-    && pnpm install --frozen-lockfile
+# 安装依赖
+RUN pnpm install
 
-# 复制剩余项目源代码
+# 复制项目
 COPY . .
 
-# 设置开发模式环境变量
-ENV NODE_ENV=development
+# 构建 Astro
+RUN pnpm astro build
 
-# 默认命令启动 Astro dev server
-CMD ["npx", "astro", "dev", "--host", "0.0.0.0", "--port", "4321"]
+# 启动预览
+CMD ["pnpm", "astro", "preview"]

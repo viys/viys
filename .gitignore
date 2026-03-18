@@ -4,6 +4,7 @@ dist/
 .vscode/
 .pnpm-store/
 .astro/
+.claude/
 
 # dependencies
 node_modules/

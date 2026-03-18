@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="340" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="13">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#1565C0"/></marker>
+  </defs>
+
+  <!-- Lifelines -->
+  <rect x="30" y="10" width="130" height="32" rx="6" fill="#42A5F5" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="95" y="31" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">广播方</text>
+  <line x1="95" y1="42" x2="95" y2="330" stroke="#42A5F5" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <rect x="370" y="10" width="130" height="32" rx="6" fill="#7E57C2" stroke="#4A148C" stroke-width="1.5"/>
+  <text x="435" y="31" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">扫描方</text>
+  <line x1="435" y1="42" x2="435" y2="330" stroke="#7E57C2" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Phase label: 主信道 -->
+  <rect x="5" y="60" width="16" height="50" rx="3" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="13" y="90" text-anchor="middle" font-size="10" fill="#1565C0" writing-mode="tb">主信道</text>
+
+  <!-- Step 1 -->
+  <line x1="100" y1="80" x2="428" y2="80" stroke="#1565C0" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="130" y="66" width="270" height="24" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1"/>
+  <text x="265" y="83" text-anchor="middle" font-size="11" fill="#1565C0" font-weight="bold">ADV_EXT_IND (含 SyncInfo)</text>
+
+  <!-- Phase label: 辅助信道 -->
+  <rect x="5" y="120" width="16" height="50" rx="3" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="13" y="152" text-anchor="middle" font-size="10" fill="#E65100" writing-mode="tb">辅助信道</text>
+
+  <!-- Step 2 -->
+  <line x1="100" y1="140" x2="428" y2="140" stroke="#E65100" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="130" y="126" width="270" height="24" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="265" y="143" text-anchor="middle" font-size="11" fill="#E65100" font-weight="bold">AUX_ADV_IND (含 SyncInfo)</text>
+
+  <!-- Separator -->
+  <line x1="30" y1="185" x2="530" y2="185" stroke="#2E7D32" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="280" y="200" text-anchor="middle" font-size="11" fill="#2E7D32" font-weight="bold">同步建立后 — 周期性数据传输</text>
+
+  <!-- Phase label: 周期性 -->
+  <rect x="5" y="215" width="16" height="100" rx="3" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="13" y="252" text-anchor="middle" font-size="10" fill="#2E7D32" writing-mode="tb">固定间隔</text>
+
+  <!-- Step 3, 4, 5: AUX_SYNC_IND repeated -->
+  <line x1="100" y1="230" x2="428" y2="230" stroke="#2E7D32" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="160" y="216" width="200" height="24" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="260" y="233" text-anchor="middle" font-size="11" fill="#2E7D32" font-weight="bold">AUX_SYNC_IND</text>
+
+  <line x1="100" y1="270" x2="428" y2="270" stroke="#2E7D32" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="160" y="256" width="200" height="24" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="260" y="273" text-anchor="middle" font-size="11" fill="#2E7D32" font-weight="bold">AUX_SYNC_IND</text>
+
+  <line x1="100" y1="310" x2="428" y2="310" stroke="#2E7D32" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="160" y="296" width="200" height="24" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="260" y="313" text-anchor="middle" font-size="11" fill="#2E7D32" font-weight="bold">AUX_SYNC_IND</text>
+
+  <text x="460" y="313" font-size="10" fill="#888">...</text>
+</svg>

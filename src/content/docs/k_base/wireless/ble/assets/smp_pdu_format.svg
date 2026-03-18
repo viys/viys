@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="65" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="12">
+  <text x="10" y="15" font-size="11" fill="#7E57C2" font-weight="bold">SMP PDU 格式</text>
+  <rect x="10" y="25" width="160" height="30" rx="4" fill="#FFE0B2" stroke="#E65100" stroke-width="1.2"/>
+  <text x="90" y="44" text-anchor="middle" font-size="12" fill="#1a1a1a">L2CAP Header (4B)</text>
+  <rect x="170" y="25" width="140" height="30" rx="4" fill="#EDE7F6" stroke="#7E57C2" stroke-width="1.2"/>
+  <text x="240" y="44" text-anchor="middle" font-size="12" fill="#1a1a1a">SMP Code (1B)</text>
+  <rect x="310" y="25" width="290" height="30" rx="4" fill="#F3E5F5" stroke="#7E57C2" stroke-width="1.2"/>
+  <text x="455" y="44" text-anchor="middle" font-size="12" fill="#1a1a1a">SMP Data</text>
+</svg>

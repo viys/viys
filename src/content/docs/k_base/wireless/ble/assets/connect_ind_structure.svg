@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="170" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="12">
+  <defs>
+    <style>
+      .fl { font-size: 12px; fill: #1a1a1a; text-anchor: middle; }
+      .fs { font-size: 10px; fill: #555; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="410" y="20" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">CONNECT_IND PDU 结构</text>
+
+  <!-- Top level PDU -->
+  <text x="15" y="55" font-size="11" fill="#1565C0" font-weight="bold">PDU</text>
+  <rect x="50" y="38" width="160" height="30" rx="4" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="130" y="57" class="fl">InitA (6B)</text>
+  <rect x="210" y="38" width="160" height="30" rx="4" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="290" y="57" class="fl">AdvA (6B)</text>
+  <rect x="370" y="38" width="430" height="30" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="585" y="57" class="fl" fill="#1565C0">LLData (22B)  ↓ 展开</text>
+
+  <!-- Arrow -->
+  <line x1="585" y1="68" x2="585" y2="85" stroke="#1565C0" stroke-width="1.5"/>
+
+  <!-- LLData expanded -->
+  <text x="15" y="108" font-size="11" fill="#E65100" font-weight="bold">LLData</text>
+  <rect x="50" y="92" width="110" height="30" rx="4" fill="#FFE0B2" stroke="#E65100" stroke-width="1.2"/>
+  <text x="105" y="107" class="fl">AA</text>
+  <text x="105" y="119" class="fs">4B</text>
+
+  <rect x="160" y="92" width="80" height="30" rx="4" fill="#FFE0B2" stroke="#E65100" stroke-width="1.2"/>
+  <text x="200" y="107" class="fl">CRCInit</text>
+  <text x="200" y="119" class="fs">3B</text>
+
+  <rect x="240" y="92" width="70" height="30" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1.2"/>
+  <text x="275" y="107" class="fl">WinSize</text>
+  <text x="275" y="119" class="fs">1B</text>
+
+  <rect x="310" y="92" width="80" height="30" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1.2"/>
+  <text x="350" y="107" class="fl">WinOffset</text>
+  <text x="350" y="119" class="fs">2B</text>
+
+  <rect x="390" y="92" width="80" height="30" rx="4" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="430" y="107" class="fl">Interval</text>
+  <text x="430" y="119" class="fs">2B</text>
+
+  <rect x="470" y="92" width="75" height="30" rx="4" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="508" y="107" class="fl">Latency</text>
+  <text x="508" y="119" class="fs">2B</text>
+
+  <rect x="545" y="92" width="75" height="30" rx="4" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="583" y="107" class="fl">Timeout</text>
+  <text x="583" y="119" class="fs">2B</text>
+
+  <rect x="620" y="92" width="120" height="30" rx="4" fill="#EDE7F6" stroke="#7E57C2" stroke-width="1.2"/>
+  <text x="680" y="107" class="fl">ChM</text>
+  <text x="680" y="119" class="fs">5B</text>
+
+  <rect x="740" y="92" width="60" height="30" rx="4" fill="#EDE7F6" stroke="#7E57C2" stroke-width="1.2"/>
+  <text x="770" y="107" class="fl">Hop|SCA</text>
+  <text x="770" y="119" class="fs">1B</text>
+
+  <!-- Legend -->
+  <rect x="50" y="140" width="12" height="12" rx="2" fill="#FFE0B2" stroke="#E65100" stroke-width="1"/>
+  <text x="67" y="151" font-size="10" fill="#555">链路标识</text>
+  <rect x="140" y="140" width="12" height="12" rx="2" fill="#FFF3E0" stroke="#E65100" stroke-width="1"/>
+  <text x="157" y="151" font-size="10" fill="#555">首包窗口</text>
+  <rect x="225" y="140" width="12" height="12" rx="2" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1"/>
+  <text x="242" y="151" font-size="10" fill="#555">连接参数</text>
+  <rect x="315" y="140" width="12" height="12" rx="2" fill="#EDE7F6" stroke="#7E57C2" stroke-width="1"/>
+  <text x="332" y="151" font-size="10" fill="#555">跳频配置</text>
+</svg>

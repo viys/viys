@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="200" font-family="'Microsoft YaHei','Segoe UI',Arial,sans-serif" font-size="12">
+  <defs>
+    <style>
+      .fl { font-size: 12px; fill: #1a1a1a; text-anchor: middle; }
+      .fs { font-size: 10px; fill: #555; text-anchor: middle; }
+      .ft { font-size: 11px; fill: #1565C0; font-weight: bold; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="390" y="20" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">广播 PDU 负载结构一览</text>
+
+  <!-- Row 1: ADV_IND / ADV_NONCONN_IND / ADV_SCAN_IND -->
+  <text x="10" y="52" class="ft">ADV_IND</text>
+  <rect x="140" y="37" width="200" height="28" rx="4" fill="#BBDEFB" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="240" y="55" class="fl">AdvA (6B)</text>
+  <rect x="340" y="37" width="410" height="28" rx="4" fill="#E3F2FD" stroke="#1565C0" stroke-width="1.2"/>
+  <text x="545" y="55" class="fl">AdvData (0~31B)</text>
+
+  <!-- Row 2: ADV_DIRECT_IND -->
+  <text x="10" y="92" class="ft">ADV_DIRECT</text>
+  <rect x="140" y="77" width="200" height="28" rx="4" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="240" y="95" class="fl">AdvA (6B)</text>
+  <rect x="340" y="77" width="200" height="28" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.2"/>
+  <text x="440" y="95" class="fl">InitA (6B)</text>
+  <text x="580" y="95" font-size="10" fill="#888">无 AdvData，固定 12B</text>
+
+  <!-- Row 3: SCAN_REQ -->
+  <text x="10" y="132" class="ft">SCAN_REQ</text>
+  <rect x="140" y="117" width="200" height="28" rx="4" fill="#FFE0B2" stroke="#E65100" stroke-width="1.2"/>
+  <text x="240" y="135" class="fl">ScanA (6B)</text>
+  <rect x="340" y="117" width="200" height="28" rx="4" fill="#FFF3E0" stroke="#E65100" stroke-width="1.2"/>
+  <text x="440" y="135" class="fl">AdvA (6B)</text>
+  <text x="580" y="135" font-size="10" fill="#888">固定 12B</text>
+
+  <!-- Row 4: SCAN_RSP -->
+  <text x="10" y="172" class="ft">SCAN_RSP</text>
+  <rect x="140" y="157" width="200" height="28" rx="4" fill="#F8BBD0" stroke="#C62828" stroke-width="1.2"/>
+  <text x="240" y="175" class="fl">AdvA (6B)</text>
+  <rect x="340" y="157" width="410" height="28" rx="4" fill="#FCE4EC" stroke="#C62828" stroke-width="1.2"/>
+  <text x="545" y="175" class="fl">ScanRspData (0~31B)</text>
+</svg>
