@@ -319,6 +319,31 @@ btcommon.eir_ad.entry.device_name
 
 Wireshark 会自动填入正确的过滤表达式。
 
+### 10.4 右键过滤器菜单详解
+
+在包列表或包详情中右键，可以看到三组过滤器操作：
+
+#### Apply as Filter（直接应用）
+
+立即将条件写入过滤栏并生效：
+
+| 选项 | 效果 |
+|------|------|
+| **Selected** | 只显示与选中包**相同**条件的包 |
+| **Not Selected** | 只显示**不符合**选中条件的包 |
+| **...and Selected** | 在现有过滤器基础上追加 **AND** 条件 |
+| **...or Selected** | 在现有过滤器基础上追加 **OR** 条件 |
+| **...and not Selected** | 在现有过滤器基础上**排除**该条件 |
+| **...or not Selected** | 在现有过滤器基础上 OR 排除该条件 |
+
+#### Prepare as Filter（准备，不立即应用）
+
+与 Apply as Filter 选项完全相同，区别是只将表达式**填入过滤栏**，不自动执行，允许手动编辑后再按回车应用。
+
+#### Conversation Filter（会话过滤器）
+
+自动提取选中包所属的**完整双向会话**，按协议层过滤。例如选中一个 BLE 包，可以一键过滤出该设备的所有收发包，无需手动填写 MAC 地址。
+
 ### 10.4 过滤器表达式向导
 
 菜单 **Analyze → Display Filter Expression**：
@@ -408,7 +433,80 @@ tshark -r capture.pcap -Y 'btcommon.eir_ad.entry.device_name contains "mydevice_
 
 ---
 
-## 十四、路径速查
+## 十四、查看 GATT 特征读写权限
+
+### 14.1 打开 Bluetooth ATT Server Attributes 视图
+
+菜单 **Wireless → Bluetooth ATT Server Attributes**，可以直接列出抓包中出现的所有 GATT 服务和特征，无需手动过滤。
+
+### 14.2 过滤特征声明
+
+在过滤栏输入：
+
+```
+btatt.uuid16 == 0x2803
+```
+
+每一条结果对应一个特征声明帧，展开后可看到该特征的 Properties、Value Handle 和 UUID。
+
+### 14.3 解读 Properties 字节
+
+Properties 是一个 1 字节的位掩码，每个 bit 代表一种操作权限：
+
+| bit | 值 | 含义 |
+|-----|----|------|
+| 1 | 0x02 | Read |
+| 2 | 0x04 | Write Without Response |
+| 3 | 0x08 | Write |
+| 4 | 0x10 | Notify |
+| 5 | 0x20 | Indicate |
+
+实际 Properties 值是多个权限按位 OR 运算的结果，例如：
+
+```
+Read(0x02) | Notify(0x10) = 0x12
+
+二进制：
+  0x02 = 0000 0010  (Read)
+  0x10 = 0001 0000  (Notify)
+         ---------
+  0x12 = 0001 0010  ✓
+```
+
+遇到不认识的 Properties 值，直接转成二进制，哪位为 1 就对应哪个权限。
+
+### 14.4 典型权限组合
+
+| Properties 值 | 权限 | 典型用途 |
+|--------------|------|---------|
+| 0x02 | Read | 只读状态特征 |
+| 0x08 | Write | 写命令通道 |
+| 0x0c | Write + Write Without Response | 写命令通道（两种写方式） |
+| 0x10 | Notify | 设备主动推送数据 |
+| 0x12 | Read + Notify | 可读且支持通知的状态特征 |
+
+### 14.5 自定义服务特征分析示例
+
+假设抓包中发现一个自定义服务（UUID `0xFF00`），其下有两个特征：
+
+| Handle | UUID | Properties | 说明 |
+|--------|------|------------|------|
+| 0x0021 | FF01 | 0x0c (Write + Write Without Response) | 写入命令通道 |
+| 0x0023 | FF02 | 0x12 (Read + Notify) | 通知/读取通道，接收设备返回数据 |
+
+`FF01`（Write）+ `FF02`（Notify/Read）成对出现，是典型的 **命令通道设计**：向 FF01 写入命令，设备通过 FF02 通知返回结果。
+
+### 14.6 过滤某个 Handle 的所有数据
+
+找到特征 Value Handle 后，可以过滤该特征的所有读写交互：
+
+```
+btatt.handle == 0x0023
+```
+
+---
+
+## 十五、路径速查
 
 ```
 固件目录:    %USERPROFILE%\.nrfutil\share\nrfutil-ble-sniffer\firmware\
