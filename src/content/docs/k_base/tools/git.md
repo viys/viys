@@ -548,14 +548,46 @@ Git易于学习，占地面积小，性能极快。它具有廉价的本地库�
    
    ```
 
-5. git push -<参数> <远端> <分支> --推送代码到远端
+5. 保留工作区更改并切换到其他分支
+
+   如果当前修改还没有提交，并且希望把这些修改直接带到另一个分支，可以先查看状态，再直接切换：
+
+   ```shell
+   git status
+   git switch <目标分支>
+   ```
+
+   如果切换成功，当前工作区的未提交修改会保留下来，只是所在分支变成了 `<目标分支>`。
+
+   如果 Git 提示当前修改会被覆盖，说明两个分支在相关文件上存在差异，此时不要强行切换，可以用 stash 临时搬运：
+
+   ```shell
+   git stash push -u -m "临时保存未提交修改"
+   git switch <目标分支>
+   git stash pop
+   ```
+
+   `-u` 表示同时保存未跟踪文件。`git stash pop` 恢复修改时如果出现冲突，需要先解决冲突，再执行 `git add <文件名>` 和 `git commit`。
+
+   查看和删除 stash：
+
+   ```shell
+   git stash list
+   git stash drop <stash编号>
+   git stash drop
+   git stash clear
+   ```
+
+   `git stash drop` 默认删除最新一条 stash；`git stash clear` 会清空全部 stash，执行前要先确认列表。
+
+6. git push -<参数> <远端> <分支> --推送代码到远端
 
    | git push 参数 | 含义         |
    | ------------- | ------------ |
    | -f            | 强制更新     |
    | -u            | 设置默认远端 |
 
-6. git clone <远端> --克隆远端代码
+7. git clone <远端> --克隆远端代码
 
 ## 协作
 
@@ -566,4 +598,5 @@ Git易于学习，占地面积小，性能极快。它具有廉价的本地库�
 ### 跨团队协作
 
 ![image-20230301120209122](https://778b-1317013106.cos.ap-nanjing.myqcloud.com/img/image-20230301120209122.png)
+
 
