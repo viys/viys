@@ -16,7 +16,7 @@
 - 🔭 I’m an embedded practitioner
 - 👯 I’m looking to make more friends
 - 🌱 Refusing to live life at a 45-degree angle
-- 💬 Ask me about Email: viysyu@gmail.com
+- 💬 Ask me about Email: hey.jiyon.yu@gmail.com
 - ⚡ Fun fact: Learn technology
 
 **Languages and Tools:**
