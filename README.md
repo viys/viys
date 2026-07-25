@@ -21,16 +21,16 @@
 
 **Embedded Technologies:**
 
-**Languages & Shells**
-
-[![Languages](https://skillicons.dev/icons?i=c,cpp,python,bash,powershell)](https://skillicons.dev)
-
-**Wireless Technologies**
-
-![Zigbee](https://img.shields.io/badge/Zigbee-EB?style=flat-square&logo=zigbee&logoColor=white)
-![BLE](https://img.shields.io/badge/BLE-0082FC?style=flat-square&logo=bluetooth&logoColor=white)
-![Wi-Fi](https://img.shields.io/badge/Wi--Fi-0A66C2?style=flat-square)
-![4G/LTE](https://img.shields.io/badge/4G%2FLTE-6B46C1?style=flat-square)
+<p>
+  <code><img height="20" title="C" src="https://cdn.simpleicons.org/c"></code>
+  <code><img height="20" title="C++" src="https://cdn.simpleicons.org/cplusplus"></code>
+  <code><img height="20" title="Python" src="https://cdn.simpleicons.org/python"></code>
+  <code><img height="20" title="Bash" src="https://cdn.simpleicons.org/gnubash"></code>
+  <code><img height="20" title="PowerShell" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Powershell_128.svg"></code>
+  <code><img height="20" title="Zigbee" src="https://cdn.simpleicons.org/zigbee"></code>
+  <code><img height="20" title="Bluetooth Low Energy" src="https://cdn.simpleicons.org/bluetooth"></code>
+  <code><img height="20" title="Wi-Fi Alliance" src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Wi-fi_alliance_logo.png"></code>
+</p>
 <img align="right" width="100" src="https://media.giphy.com/media/4TnHlUBm55QMzBLvq6/giphy.gif">
 
 <div align="left">
