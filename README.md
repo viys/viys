@@ -35,6 +35,6 @@
 
 <div align="left">
  <a href="https://github.com/viys"><img src="https://komarev.com/ghpvc/?username=viys&label=Visitor&color=ccccd6"></a>
- <a href="https://github.com/viys?tab=repositories"><img src="https://ghstats.dev/api/mini?username=viys&amp;metric=stars&amp;label=Total%20Stars&amp;color=eac54f" alt="Total stars across public repositories"></a>
+ <a href="https://github.com/viys?tab=repositories"><img src="https://ghstats.dev/api/mini?username=viys&metric=stars&label=Stars&color=bc9850" alt="Total stars across public repositories"></a>
  <a href="https://github.com/viys"><img src="https://img.shields.io/github/followers/viys?label=Github&style=social"></a>
 </div>
